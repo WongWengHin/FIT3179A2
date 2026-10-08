@@ -3,7 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Australian Livestock Industry: section 1 of a Vega-Lite geographic data story.">
+    <meta name="description" content="Australian Livestock Industry — geography, trends and production value. FIT3179 data story.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <title>Australian Livestock Industry | Volume 09</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.jsdelivr.net/npm/vega@5" defer></script>
@@ -12,7 +15,7 @@
     <script src="app.js" defer></script>
 </head>
 <body>
-  <a href="#main" class="skip">Skip to visualisations</a>
+  <a href="#main" class="skip">Skip to the story</a>
 
   <header class="masthead">
     <div class="wrap mast-flex">
@@ -22,12 +25,11 @@
   </header>
 
   <main class="wrap" id="main">
-    <div class="hero">
+    <section class="hero">
       <div>
         <div class="eyebrow">A data story about food and farming</div>
         <h1>Australian <em>Livestock</em> Industry</h1>
         <p class="subtitle">Where is Australia's meat produced—and how are production, regional strengths and economic value changing?</p>
-
         <div class="animals" aria-label="Livestock categories">
           <span><i class="swatch cattle"></i>🐄 Cattle</span>
           <span><i class="swatch sheep"></i>🐑 Sheep</span>
@@ -35,25 +37,21 @@
           <span><i class="swatch poultry"></i>🐓 Poultry</span>
         </div>
       </div>
-
-      <div class="hero-stat">
+      <aside class="hero-stat">
         <div class="stat-label">2025 / ANNUAL AUSTRALIAN MEAT PRODUCTION</div>
-        <div class="stat-number" id="hero-total">—</div>
+        <div class="stat-number" id="hero-total">Loading…</div>
         <div class="stat-foot">tonnes across beef, veal, lamb, mutton, pig meat and chicken meat</div>
         <div class="stat-rule"></div>
         <p>Source: ABS original quarterly meat-production series, summed over January–December 2025.</p>
-      </div>
-    </div>
-
-    <div class="topnote">
-      <strong>How to read these maps.</strong>
-      Maps use ABS calendar years 2016–2025. They compare meat slaughter/processing by state, not where livestock was raised. National output includes categories not available for every state.
-    </div>
+      </aside>
+    </section>
+    <div class="topnote"><strong>How to read this story.</strong> ABS maps and trends use calendar years 2016–2025. State figures describe meat slaughter/processing, not necessarily where animals were raised. ABARES charts, introduced in Section 4, use financial years.</div>
   </main>
 
   <nav class="page-nav" aria-label="Chapters">
     <div class="wrap nav-row">
       <a href="#geography">01 <span>Geography</span></a>
+      <a href="#change">02 <span>Trends</span></a>
       <a href="#methods">↗ <span>Sources &amp; methods</span></a>
     </div>
   </nav>
@@ -64,7 +62,6 @@
         <label for="year">Reporting year <small>(calendar year)</small></label>
         <select id="year"></select>
       </div>
-
       <div class="control">
         <label for="species">Livestock <small>(for regional charts)</small></label>
         <select id="species">
@@ -75,7 +72,6 @@
           <option value="Red meat">All red meat</option>
         </select>
       </div>
-
       <div class="control">
         <label for="state">Highlight / compare state</label>
         <select id="state">
@@ -90,7 +86,6 @@
           <option>Australian Capital Territory</option>
         </select>
       </div>
-
       <button id="reset" type="button">Reset filters ↺</button>
       <p class="control-note" id="selection-note" aria-live="polite">Loading chart data…</p>
     </section>
@@ -126,42 +121,64 @@
           <h3>Regional specialisation</h3>
           <p class="fig-deck">Which red-meat type stands out in each state's output mix?</p>
           <div class="vis" id="vis03"></div>
-          <p class="fig-takeaway" id="note03">Specialisation is relative to Australia's cattle, sheep and pig meat mix. A tile map does not depict land area.</p>
+          <p class="fig-takeaway" id="note03">Specialisation is relative to Australia’s cattle, sheep and pig meat mix. Tiles do not depict land area.</p>
         </article>
       </div>
+      <div class="story-note" id="callout-geo"><strong>A geographic caveat:</strong> ABS records slaughter and meat processing by state, not necessarily where an animal was raised. Chicken data are not publicly reported for every state in the selected spreadsheet.</div>
+    </section>
 
-      <div class="story-note" id="callout-geo">
-        <strong>A geographic caveat:</strong>
-        ABS records slaughter and meat processing by state, not necessarily where an animal was raised. Chicken data are not publicly reported for every state in the selected spreadsheet.
+    <section class="chapter" id="change">
+      <div class="chapter-banner ochre">
+        <div>
+          <span class="chapter-index">02 / TIME</span>
+          <h2>How is the industry changing?</h2>
+        </div>
+        <p>Output can grow in tonnes while its share of all meat shrinks. Compare quantities, annual changes and composition.</p>
+      </div>
+
+      <div class="chart-grid">
+        <article class="figure">
+          <div class="fig-index">FIGURE 04 · MULTI-SERIES LINE</div>
+          <h3>Production through time</h3>
+          <p class="fig-deck">Annual meat production across four categories, 2016–2025.</p>
+          <div class="vis" id="vis04"></div>
+          <p class="fig-takeaway" id="note04">National output trends, compared in the same unit.</p>
+        </article>
+
+        <article class="figure">
+          <div class="fig-index">FIGURE 05 · DIVERGING HEATMAP</div>
+          <h3>Growth and decline</h3>
+          <p class="fig-deck">Year-on-year percentage changes reveal turning points.</p>
+          <div class="vis" id="vis05"></div>
+          <p class="fig-takeaway">Blue cells indicate increases; red cells indicate decreases.</p>
+        </article>
+
+        <article class="figure">
+          <div class="fig-index">FIGURE 06 · 100% STACKED AREA</div>
+          <h3>The industry mix</h3>
+          <p class="fig-deck">How each category contributes to national meat tonnes.</p>
+          <div class="vis" id="vis06"></div>
+          <p class="fig-takeaway" id="note06">Share is calculated from the combined output of these four groups, not all food production.</p>
+        </article>
       </div>
     </section>
 
     <section class="methods" id="methods">
       <div>
-        <span class="eyebrow">Behind the maps</span>
+        <span class="eyebrow">Behind the charts</span>
         <h2>Methods, sources &amp; acknowledgements</h2>
-
-        <p>ABS original quarterly meat output is summed by calendar year. Cattle combines beef and veal; sheep combines lamb and mutton. State counts are only included when all required quarterly observations are present. Missing values are not zero.</p>
-
-        <p>The specialisation map compares a state's internal mix of three red-meat categories with the national red-meat mix. A tile-grid map is schematic, not a geographical boundary map. The geographic data describes slaughter and processing, not animals reared locally.</p>
-
-        <p>All three diagrams are made with Vega-Lite. Readable specifications appear in <code>charts/</code>, and source-derived observations are in <code>data/</code>.</p>
+        <p><strong>ABS meat production:</strong> Quarterly ORIGINAL (not seasonally adjusted) ABS production is summed into calendar years. Cattle is beef and veal; sheep is mutton and lamb; poultry is chicken meat. Missing state quarters remain unavailable, not zero.</p>
+        <p><strong>Specialisation:</strong> A state's percentage mix of cattle/sheep/pig meat is compared with Australia's equivalent red-meat mix. An index over 1 means relative specialisation. This does not measure livestock raised in that state.</p>
+        <p><strong>Trends:</strong> Growth is calculated relative to the previous calendar year. Industry share is a national four-category percentage, and does not use the selected-state filter.</p>
       </div>
-
       <aside>
-        <h3>Sources</h3>
-
+        <h3>Original public data</h3>
         <a href="https://www.abs.gov.au/statistics/industry/agriculture/livestock-products/latest-release" target="_blank" rel="noopener">↗ ABS — Livestock products, June 2026</a>
-
         <a href="https://www.agriculture.gov.au/abares/research-topics/agricultural-outlook/data" target="_blank" rel="noopener">↗ ABARES — Agricultural commodities</a>
-
-        <a href="https://github.com/anthwri/GeoJson-Data/blob/master/australian-states.json" target="_blank" rel="noopener">↗ Outline shapes — Australian states GeoJSON</a>
-
-        <p class="source-note">Check geographic outline licensing before public submission.</p>
-
+        <a href="https://github.com/anthwri/GeoJson-Data/blob/master/australian-states.json" target="_blank" rel="noopener">↗ Australia states GeoJSON</a>
+        <p class="source-note">Map outlines are from an external GeoJSON repository. Check geographic outline licensing before public submission.</p>
         <h3>AI disclosure</h3>
-        <p class="source-note">ChatGPT assisted with source processing, Vega-Lite specifications, website code and documentation. Verify and acknowledge its use in the submitted work.</p>
-
+        <p class="source-note">ChatGPT assisted with data preparation, coding, Vega-Lite diagrams and writing. Review the source values and declare this assistance in your submission.</p>
         <p class="source-note">October 2026 · FIT3179 · Author: [replace with your name]</p>
       </aside>
     </section>
@@ -170,7 +187,7 @@
   <footer>
     <div class="wrap footflex">
       <span>AUSTRALIAN LIVESTOCK INDUSTRY <small>· FIT3179 · VOLUME 09</small></span>
-      <span>3 map idioms · ABS · October 2026</span>
+      <span>6 charts · ABS · October 2026</span>
     </div>
   </footer>
 </body>

@@ -1,0 +1,110 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 355,
+  "background": null,
+  "padding": {
+    "left": 4,
+    "right": 8,
+    "top": 5,
+    "bottom": 3
+  },
+  "data": {
+    "values": []
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Arial, sans-serif",
+      "titleFont": "Arial, sans-serif",
+      "labelColor": "#64756e",
+      "titleColor": "#64756e",
+      "labelFontSize": 10,
+      "titleFontSize": 10,
+      "gridColor": "#e7eae3",
+      "tickColor": "#cbd4cc",
+      "domainColor": "#cbd4cc",
+      "titlePadding": 7
+    },
+    "legend": {
+      "labelFont": "Arial, sans-serif",
+      "titleFont": "Arial, sans-serif",
+      "labelColor": "#62736a",
+      "titleColor": "#334a3f",
+      "labelFontSize": 10,
+      "orient": "bottom",
+      "symbolSize": 65
+    },
+    "text": {
+      "font": "Arial, sans-serif"
+    }
+  },
+  "mark": {
+    "type": "line",
+    "point": {
+      "size": 25
+    },
+    "strokeWidth": 2.1
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "quantitative",
+      "axis": {
+        "title": "Calendar year",
+        "format": "d",
+        "tickMinStep": 1
+      }
+    },
+    "y": {
+      "field": "tonnes",
+      "type": "quantitative",
+      "axis": {
+        "title": "Tonnes",
+        "format": "~s"
+      },
+      "scale": {
+        "zero": true
+      }
+    },
+    "color": {
+      "field": "species",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Cattle",
+          "Sheep",
+          "Pigs",
+          "Poultry"
+        ],
+        "range": [
+          "#498269",
+          "#d3a74e",
+          "#c86e59",
+          "#629ac4"
+        ]
+      },
+      "legend": {
+        "title": null
+      }
+    },
+    "tooltip": [
+      {
+        "field": "year",
+        "type": "quantitative",
+        "format": "d"
+      },
+      {
+        "field": "species",
+        "type": "nominal"
+      },
+      {
+        "field": "tonnes",
+        "type": "quantitative",
+        "format": ",.0f"
+      }
+    ]
+  }
+}

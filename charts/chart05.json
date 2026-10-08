@@ -1,0 +1,103 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 355,
+  "background": null,
+  "padding": {
+    "left": 4,
+    "right": 8,
+    "top": 5,
+    "bottom": 3
+  },
+  "data": {
+    "values": []
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Arial, sans-serif",
+      "titleFont": "Arial, sans-serif",
+      "labelColor": "#64756e",
+      "titleColor": "#64756e",
+      "labelFontSize": 10,
+      "titleFontSize": 10,
+      "gridColor": "#e7eae3",
+      "tickColor": "#cbd4cc",
+      "domainColor": "#cbd4cc",
+      "titlePadding": 7
+    },
+    "legend": {
+      "labelFont": "Arial, sans-serif",
+      "titleFont": "Arial, sans-serif",
+      "labelColor": "#62736a",
+      "titleColor": "#334a3f",
+      "labelFontSize": 10,
+      "orient": "bottom",
+      "symbolSize": 65
+    },
+    "text": {
+      "font": "Arial, sans-serif"
+    }
+  },
+  "mark": {
+    "type": "rect",
+    "stroke": "#fffdf7",
+    "strokeWidth": 2,
+    "cornerRadius": 2
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "ordinal",
+      "axis": {
+        "title": "Calendar year",
+        "labelAngle": -45
+      }
+    },
+    "y": {
+      "field": "species",
+      "type": "nominal",
+      "sort": [
+        "Cattle",
+        "Sheep",
+        "Pigs",
+        "Poultry"
+      ],
+      "axis": {
+        "title": null,
+        "domain": false,
+        "ticks": false
+      }
+    },
+    "color": {
+      "field": "pct",
+      "type": "quantitative",
+      "scale": {
+        "domainMid": 0,
+        "scheme": "redblue"
+      },
+      "legend": {
+        "title": "Annual change %",
+        "orient": "bottom"
+      }
+    },
+    "tooltip": [
+      {
+        "field": "year",
+        "type": "ordinal"
+      },
+      {
+        "field": "species",
+        "type": "nominal"
+      },
+      {
+        "field": "pct",
+        "type": "quantitative",
+        "title": "Change (%)",
+        "format": "+.1f"
+      }
+    ]
+  }
+}
