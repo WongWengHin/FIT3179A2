@@ -1,0 +1,2172 @@
+[
+  {
+    "year": 2016,
+    "state": "Australia",
+    "species": "Cattle",
+    "tonnes": 2125054.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "New South Wales",
+    "species": "Cattle",
+    "tonnes": 466444.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "Victoria",
+    "species": "Cattle",
+    "tonnes": 362264.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "Queensland",
+    "species": "Cattle",
+    "tonnes": 1028356.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "South Australia",
+    "species": "Cattle",
+    "tonnes": 108429.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "Western Australia",
+    "species": "Cattle",
+    "tonnes": 104827.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "Tasmania",
+    "species": "Cattle",
+    "tonnes": 54734.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "Northern Territory",
+    "species": "Cattle",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "Australian Capital Territory",
+    "species": "Cattle",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "Australia",
+    "species": "Sheep",
+    "tonnes": 685818.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "New South Wales",
+    "species": "Sheep",
+    "tonnes": 163493.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "Victoria",
+    "species": "Sheep",
+    "tonnes": 287704.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "Queensland",
+    "species": "Sheep",
+    "tonnes": 7082.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "South Australia",
+    "species": "Sheep",
+    "tonnes": 116423.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "Western Australia",
+    "species": "Sheep",
+    "tonnes": 95501.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "Tasmania",
+    "species": "Sheep",
+    "tonnes": 15615.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "Northern Territory",
+    "species": "Sheep",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "Australian Capital Territory",
+    "species": "Sheep",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "Australia",
+    "species": "Pigs",
+    "tonnes": 386055.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "New South Wales",
+    "species": "Pigs",
+    "tonnes": 60156.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "Victoria",
+    "species": "Pigs",
+    "tonnes": 88405.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "Queensland",
+    "species": "Pigs",
+    "tonnes": 87438.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "South Australia",
+    "species": "Pigs",
+    "tonnes": 96299.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "Western Australia",
+    "species": "Pigs",
+    "tonnes": 51533.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "Tasmania",
+    "species": "Pigs",
+    "tonnes": 2225.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "Northern Territory",
+    "species": "Pigs",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "Australian Capital Territory",
+    "species": "Pigs",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "Australia",
+    "species": "Poultry",
+    "tonnes": 1225275.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "New South Wales",
+    "species": "Poultry",
+    "tonnes": 389402.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "Victoria",
+    "species": "Poultry",
+    "tonnes": 254249.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2016,
+    "state": "Queensland",
+    "species": "Poultry",
+    "tonnes": 264959.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "Australia",
+    "species": "Cattle",
+    "tonnes": 2149079.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "New South Wales",
+    "species": "Cattle",
+    "tonnes": 476393.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "Victoria",
+    "species": "Cattle",
+    "tonnes": 358795.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "Queensland",
+    "species": "Cattle",
+    "tonnes": 1035755.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "South Australia",
+    "species": "Cattle",
+    "tonnes": 114001.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "Western Australia",
+    "species": "Cattle",
+    "tonnes": 102866.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "Tasmania",
+    "species": "Cattle",
+    "tonnes": 61262.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "Northern Territory",
+    "species": "Cattle",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "Australian Capital Territory",
+    "species": "Cattle",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "Australia",
+    "species": "Sheep",
+    "tonnes": 697657.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "New South Wales",
+    "species": "Sheep",
+    "tonnes": 174910.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "Victoria",
+    "species": "Sheep",
+    "tonnes": 312614.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "Queensland",
+    "species": "Sheep",
+    "tonnes": 2107.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "South Australia",
+    "species": "Sheep",
+    "tonnes": 113855.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "Western Australia",
+    "species": "Sheep",
+    "tonnes": 82618.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "Tasmania",
+    "species": "Sheep",
+    "tonnes": 11551.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "Northern Territory",
+    "species": "Sheep",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "Australian Capital Territory",
+    "species": "Sheep",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "Australia",
+    "species": "Pigs",
+    "tonnes": 407972.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "New South Wales",
+    "species": "Pigs",
+    "tonnes": 67464.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "Victoria",
+    "species": "Pigs",
+    "tonnes": 91291.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "Queensland",
+    "species": "Pigs",
+    "tonnes": 87566.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "South Australia",
+    "species": "Pigs",
+    "tonnes": 103997.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "Western Australia",
+    "species": "Pigs",
+    "tonnes": 55304.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "Tasmania",
+    "species": "Pigs",
+    "tonnes": 2351.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "Northern Territory",
+    "species": "Pigs",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "Australian Capital Territory",
+    "species": "Pigs",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "Australia",
+    "species": "Poultry",
+    "tonnes": 1220148.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "New South Wales",
+    "species": "Poultry",
+    "tonnes": 410742.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "Victoria",
+    "species": "Poultry",
+    "tonnes": 226137.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2017,
+    "state": "Queensland",
+    "species": "Poultry",
+    "tonnes": 265240.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "Australia",
+    "species": "Cattle",
+    "tonnes": 2308548.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "New South Wales",
+    "species": "Cattle",
+    "tonnes": 524809.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "Victoria",
+    "species": "Cattle",
+    "tonnes": 436659.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "Queensland",
+    "species": "Cattle",
+    "tonnes": 1108921.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "South Australia",
+    "species": "Cattle",
+    "tonnes": 64409.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "Western Australia",
+    "species": "Cattle",
+    "tonnes": 106041.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "Tasmania",
+    "species": "Cattle",
+    "tonnes": 67707.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "Northern Territory",
+    "species": "Cattle",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "Australian Capital Territory",
+    "species": "Cattle",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "Australia",
+    "species": "Sheep",
+    "tonnes": 736558.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "New South Wales",
+    "species": "Sheep",
+    "tonnes": 191883.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "Victoria",
+    "species": "Sheep",
+    "tonnes": 354717.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "Queensland",
+    "species": "Sheep",
+    "tonnes": 3678.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "South Australia",
+    "species": "Sheep",
+    "tonnes": 86799.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "Western Australia",
+    "species": "Sheep",
+    "tonnes": 89051.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "Tasmania",
+    "species": "Sheep",
+    "tonnes": 10431.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "Northern Territory",
+    "species": "Sheep",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "Australian Capital Territory",
+    "species": "Sheep",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "Australia",
+    "species": "Pigs",
+    "tonnes": 424213.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "New South Wales",
+    "species": "Pigs",
+    "tonnes": 65971.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "Victoria",
+    "species": "Pigs",
+    "tonnes": 89766.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "Queensland",
+    "species": "Pigs",
+    "tonnes": 96433.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "South Australia",
+    "species": "Pigs",
+    "tonnes": 104948.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "Western Australia",
+    "species": "Pigs",
+    "tonnes": 64705.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "Tasmania",
+    "species": "Pigs",
+    "tonnes": 2391.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "Northern Territory",
+    "species": "Pigs",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "Australian Capital Territory",
+    "species": "Pigs",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "Australia",
+    "species": "Poultry",
+    "tonnes": 1212549.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "New South Wales",
+    "species": "Poultry",
+    "tonnes": 444264.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "Victoria",
+    "species": "Poultry",
+    "tonnes": 210255.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2018,
+    "state": "Queensland",
+    "species": "Poultry",
+    "tonnes": 221880.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "Australia",
+    "species": "Cattle",
+    "tonnes": 2431805.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "New South Wales",
+    "species": "Cattle",
+    "tonnes": 543375.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "Victoria",
+    "species": "Cattle",
+    "tonnes": 489449.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "Queensland",
+    "species": "Cattle",
+    "tonnes": 1151327.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "South Australia",
+    "species": "Cattle",
+    "tonnes": 63086.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "Western Australia",
+    "species": "Cattle",
+    "tonnes": 116777.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "Tasmania",
+    "species": "Cattle",
+    "tonnes": 67792.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "Northern Territory",
+    "species": "Cattle",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "Australian Capital Territory",
+    "species": "Cattle",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "Australia",
+    "species": "Sheep",
+    "tonnes": 731279.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "New South Wales",
+    "species": "Sheep",
+    "tonnes": 199306.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "Victoria",
+    "species": "Sheep",
+    "tonnes": 344293.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "Queensland",
+    "species": "Sheep",
+    "tonnes": 4415.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "South Australia",
+    "species": "Sheep",
+    "tonnes": 79232.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "Western Australia",
+    "species": "Sheep",
+    "tonnes": 95512.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "Tasmania",
+    "species": "Sheep",
+    "tonnes": 8521.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "Northern Territory",
+    "species": "Sheep",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "Australian Capital Territory",
+    "species": "Sheep",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "Australia",
+    "species": "Pigs",
+    "tonnes": 397735.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "New South Wales",
+    "species": "Pigs",
+    "tonnes": 62102.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "Victoria",
+    "species": "Pigs",
+    "tonnes": 91962.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "Queensland",
+    "species": "Pigs",
+    "tonnes": 94145.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "South Australia",
+    "species": "Pigs",
+    "tonnes": 87521.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "Western Australia",
+    "species": "Pigs",
+    "tonnes": 59832.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "Tasmania",
+    "species": "Pigs",
+    "tonnes": 2173.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "Northern Territory",
+    "species": "Pigs",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "Australian Capital Territory",
+    "species": "Pigs",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "Australia",
+    "species": "Poultry",
+    "tonnes": 1226601.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "New South Wales",
+    "species": "Poultry",
+    "tonnes": 448428.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "Victoria",
+    "species": "Poultry",
+    "tonnes": 213462.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2019,
+    "state": "Queensland",
+    "species": "Poultry",
+    "tonnes": 225690.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "Australia",
+    "species": "Cattle",
+    "tonnes": 2122926.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "New South Wales",
+    "species": "Cattle",
+    "tonnes": 452389.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "Victoria",
+    "species": "Cattle",
+    "tonnes": 441326.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "Queensland",
+    "species": "Cattle",
+    "tonnes": 990473.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "South Australia",
+    "species": "Cattle",
+    "tonnes": 54946.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "Western Australia",
+    "species": "Cattle",
+    "tonnes": 114659.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "Tasmania",
+    "species": "Cattle",
+    "tonnes": 69133.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "Northern Territory",
+    "species": "Cattle",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "Australian Capital Territory",
+    "species": "Cattle",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "Australia",
+    "species": "Sheep",
+    "tonnes": 657790.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "New South Wales",
+    "species": "Sheep",
+    "tonnes": 182274.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "Victoria",
+    "species": "Sheep",
+    "tonnes": 304995.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "Queensland",
+    "species": "Sheep",
+    "tonnes": 2861.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "South Australia",
+    "species": "Sheep",
+    "tonnes": 70653.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "Western Australia",
+    "species": "Sheep",
+    "tonnes": 90483.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "Tasmania",
+    "species": "Sheep",
+    "tonnes": 6524.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "Northern Territory",
+    "species": "Sheep",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "Australian Capital Territory",
+    "species": "Sheep",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "Australia",
+    "species": "Pigs",
+    "tonnes": 418726.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "New South Wales",
+    "species": "Pigs",
+    "tonnes": 63476.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "Victoria",
+    "species": "Pigs",
+    "tonnes": 92178.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "Queensland",
+    "species": "Pigs",
+    "tonnes": 101033.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "South Australia",
+    "species": "Pigs",
+    "tonnes": 94822.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "Western Australia",
+    "species": "Pigs",
+    "tonnes": 65501.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "Tasmania",
+    "species": "Pigs",
+    "tonnes": 1718.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "Northern Territory",
+    "species": "Pigs",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "Australian Capital Territory",
+    "species": "Pigs",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "Australia",
+    "species": "Poultry",
+    "tonnes": 1270768.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "New South Wales",
+    "species": "Poultry",
+    "tonnes": 451345.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "Victoria",
+    "species": "Poultry",
+    "tonnes": 235784.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2020,
+    "state": "Queensland",
+    "species": "Poultry",
+    "tonnes": 230977.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "Australia",
+    "species": "Cattle",
+    "tonnes": 1894841.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "New South Wales",
+    "species": "Cattle",
+    "tonnes": 390558.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "Victoria",
+    "species": "Cattle",
+    "tonnes": 373519.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "Queensland",
+    "species": "Cattle",
+    "tonnes": 935955.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "South Australia",
+    "species": "Cattle",
+    "tonnes": 42796.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "Western Australia",
+    "species": "Cattle",
+    "tonnes": 92212.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "Tasmania",
+    "species": "Cattle",
+    "tonnes": 59802.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "Northern Territory",
+    "species": "Cattle",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "Australian Capital Territory",
+    "species": "Cattle",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "Australia",
+    "species": "Sheep",
+    "tonnes": 662973.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "New South Wales",
+    "species": "Sheep",
+    "tonnes": 187670.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "Victoria",
+    "species": "Sheep",
+    "tonnes": 308058.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "Queensland",
+    "species": "Sheep",
+    "tonnes": 3238.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "South Australia",
+    "species": "Sheep",
+    "tonnes": 67772.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "Western Australia",
+    "species": "Sheep",
+    "tonnes": 88587.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "Tasmania",
+    "species": "Sheep",
+    "tonnes": 7648.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "Northern Territory",
+    "species": "Sheep",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "Australian Capital Territory",
+    "species": "Sheep",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "Australia",
+    "species": "Pigs",
+    "tonnes": 443226.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "New South Wales",
+    "species": "Pigs",
+    "tonnes": 65552.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "Victoria",
+    "species": "Pigs",
+    "tonnes": 99997.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "Queensland",
+    "species": "Pigs",
+    "tonnes": 106050.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "South Australia",
+    "species": "Pigs",
+    "tonnes": 102906.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "Western Australia",
+    "species": "Pigs",
+    "tonnes": 66995.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "Tasmania",
+    "species": "Pigs",
+    "tonnes": 1728.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "Northern Territory",
+    "species": "Pigs",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "Australian Capital Territory",
+    "species": "Pigs",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "Australia",
+    "species": "Poultry",
+    "tonnes": 1337317.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "New South Wales",
+    "species": "Poultry",
+    "tonnes": 476228.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "Victoria",
+    "species": "Poultry",
+    "tonnes": 256212.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2021,
+    "state": "Queensland",
+    "species": "Poultry",
+    "tonnes": 245744.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "Australia",
+    "species": "Cattle",
+    "tonnes": 1878088.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "New South Wales",
+    "species": "Cattle",
+    "tonnes": 398389.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "Victoria",
+    "species": "Cattle",
+    "tonnes": 353008.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "Queensland",
+    "species": "Cattle",
+    "tonnes": 914555.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "South Australia",
+    "species": "Cattle",
+    "tonnes": 45711.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "Western Australia",
+    "species": "Cattle",
+    "tonnes": 108109.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "Tasmania",
+    "species": "Cattle",
+    "tonnes": 58317.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "Northern Territory",
+    "species": "Cattle",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "Australian Capital Territory",
+    "species": "Cattle",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "Australia",
+    "species": "Sheep",
+    "tonnes": 709932.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "New South Wales",
+    "species": "Sheep",
+    "tonnes": 200957.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "Victoria",
+    "species": "Sheep",
+    "tonnes": 334274.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "Queensland",
+    "species": "Sheep",
+    "tonnes": 2338.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "South Australia",
+    "species": "Sheep",
+    "tonnes": 70305.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "Western Australia",
+    "species": "Sheep",
+    "tonnes": 93445.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "Tasmania",
+    "species": "Sheep",
+    "tonnes": 8610.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "Northern Territory",
+    "species": "Sheep",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "Australian Capital Territory",
+    "species": "Sheep",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "Australia",
+    "species": "Pigs",
+    "tonnes": 436274.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "New South Wales",
+    "species": "Pigs",
+    "tonnes": 61139.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "Victoria",
+    "species": "Pigs",
+    "tonnes": 91762.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "Queensland",
+    "species": "Pigs",
+    "tonnes": 113723.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "South Australia",
+    "species": "Pigs",
+    "tonnes": 101935.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "Western Australia",
+    "species": "Pigs",
+    "tonnes": 65759.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "Tasmania",
+    "species": "Pigs",
+    "tonnes": 1959.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "Northern Territory",
+    "species": "Pigs",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "Australian Capital Territory",
+    "species": "Pigs",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "Australia",
+    "species": "Poultry",
+    "tonnes": 1364171.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "New South Wales",
+    "species": "Poultry",
+    "tonnes": 488870.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "Victoria",
+    "species": "Poultry",
+    "tonnes": 270091.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2022,
+    "state": "Queensland",
+    "species": "Poultry",
+    "tonnes": 246111.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "Australia",
+    "species": "Cattle",
+    "tonnes": 2221595.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "New South Wales",
+    "species": "Cattle",
+    "tonnes": 480907.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "Victoria",
+    "species": "Cattle",
+    "tonnes": 437091.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "Queensland",
+    "species": "Cattle",
+    "tonnes": 1058623.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "South Australia",
+    "species": "Cattle",
+    "tonnes": 59538.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "Western Australia",
+    "species": "Cattle",
+    "tonnes": 117706.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "Tasmania",
+    "species": "Cattle",
+    "tonnes": 67727.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "Northern Territory",
+    "species": "Cattle",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "Australian Capital Territory",
+    "species": "Cattle",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "Australia",
+    "species": "Sheep",
+    "tonnes": 846568.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "New South Wales",
+    "species": "Sheep",
+    "tonnes": 237902.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "Victoria",
+    "species": "Sheep",
+    "tonnes": 399040.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "Queensland",
+    "species": "Sheep",
+    "tonnes": 1764.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "South Australia",
+    "species": "Sheep",
+    "tonnes": 78171.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "Western Australia",
+    "species": "Sheep",
+    "tonnes": 117681.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "Tasmania",
+    "species": "Sheep",
+    "tonnes": 12006.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "Northern Territory",
+    "species": "Sheep",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "Australian Capital Territory",
+    "species": "Sheep",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "Australia",
+    "species": "Pigs",
+    "tonnes": 466786.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "New South Wales",
+    "species": "Pigs",
+    "tonnes": 64217.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "Victoria",
+    "species": "Pigs",
+    "tonnes": 105114.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "Queensland",
+    "species": "Pigs",
+    "tonnes": 123082.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "South Australia",
+    "species": "Pigs",
+    "tonnes": 97438.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "Western Australia",
+    "species": "Pigs",
+    "tonnes": 74942.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "Tasmania",
+    "species": "Pigs",
+    "tonnes": 1992.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "Northern Territory",
+    "species": "Pigs",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "Australian Capital Territory",
+    "species": "Pigs",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "Australia",
+    "species": "Poultry",
+    "tonnes": 1413189.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "New South Wales",
+    "species": "Poultry",
+    "tonnes": 516087.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "Victoria",
+    "species": "Poultry",
+    "tonnes": 273956.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2023,
+    "state": "Queensland",
+    "species": "Poultry",
+    "tonnes": 250470.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "Australia",
+    "species": "Cattle",
+    "tonnes": 2582427.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "New South Wales",
+    "species": "Cattle",
+    "tonnes": 545724.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "Victoria",
+    "species": "Cattle",
+    "tonnes": 555858.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "Queensland",
+    "species": "Cattle",
+    "tonnes": 1190137.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "South Australia",
+    "species": "Cattle",
+    "tonnes": 94536.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "Western Australia",
+    "species": "Cattle",
+    "tonnes": 127837.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "Tasmania",
+    "species": "Cattle",
+    "tonnes": 68335.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "Northern Territory",
+    "species": "Cattle",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "Australian Capital Territory",
+    "species": "Cattle",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "Australia",
+    "species": "Sheep",
+    "tonnes": 927230.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "New South Wales",
+    "species": "Sheep",
+    "tonnes": 257459.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "Victoria",
+    "species": "Sheep",
+    "tonnes": 446565.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "Queensland",
+    "species": "Sheep",
+    "tonnes": 1922.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "South Australia",
+    "species": "Sheep",
+    "tonnes": 86394.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "Western Australia",
+    "species": "Sheep",
+    "tonnes": 121150.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "Tasmania",
+    "species": "Sheep",
+    "tonnes": 13738.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "Northern Territory",
+    "species": "Sheep",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "Australian Capital Territory",
+    "species": "Sheep",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "Australia",
+    "species": "Pigs",
+    "tonnes": 470502.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "New South Wales",
+    "species": "Pigs",
+    "tonnes": 64531.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "Victoria",
+    "species": "Pigs",
+    "tonnes": 109391.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "Queensland",
+    "species": "Pigs",
+    "tonnes": 122277.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "South Australia",
+    "species": "Pigs",
+    "tonnes": 97699.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "Western Australia",
+    "species": "Pigs",
+    "tonnes": 74275.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "Tasmania",
+    "species": "Pigs",
+    "tonnes": 2331.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "Northern Territory",
+    "species": "Pigs",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "Australian Capital Territory",
+    "species": "Pigs",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "Australia",
+    "species": "Poultry",
+    "tonnes": 1477685.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "New South Wales",
+    "species": "Poultry",
+    "tonnes": 558286.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "Victoria",
+    "species": "Poultry",
+    "tonnes": 277935.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2024,
+    "state": "Queensland",
+    "species": "Poultry",
+    "tonnes": 261536.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "Australia",
+    "species": "Cattle",
+    "tonnes": 2886281.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "New South Wales",
+    "species": "Cattle",
+    "tonnes": 647022.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "Victoria",
+    "species": "Cattle",
+    "tonnes": 633979.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "Queensland",
+    "species": "Cattle",
+    "tonnes": 1284316.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "South Australia",
+    "species": "Cattle",
+    "tonnes": 115567.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "Western Australia",
+    "species": "Cattle",
+    "tonnes": 136832.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "Tasmania",
+    "species": "Cattle",
+    "tonnes": 68567.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "Northern Territory",
+    "species": "Cattle",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "Australian Capital Territory",
+    "species": "Cattle",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "Australia",
+    "species": "Sheep",
+    "tonnes": 855825.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "New South Wales",
+    "species": "Sheep",
+    "tonnes": 241729.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "Victoria",
+    "species": "Sheep",
+    "tonnes": 409120.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "Queensland",
+    "species": "Sheep",
+    "tonnes": 1986.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "South Australia",
+    "species": "Sheep",
+    "tonnes": 76513.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "Western Australia",
+    "species": "Sheep",
+    "tonnes": 111758.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "Tasmania",
+    "species": "Sheep",
+    "tonnes": 14718.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "Northern Territory",
+    "species": "Sheep",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "Australian Capital Territory",
+    "species": "Sheep",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "Australia",
+    "species": "Pigs",
+    "tonnes": 475071.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "New South Wales",
+    "species": "Pigs",
+    "tonnes": 66507.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "Victoria",
+    "species": "Pigs",
+    "tonnes": 108520.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "Queensland",
+    "species": "Pigs",
+    "tonnes": 124066.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "South Australia",
+    "species": "Pigs",
+    "tonnes": 101312.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "Western Australia",
+    "species": "Pigs",
+    "tonnes": 72355.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "Tasmania",
+    "species": "Pigs",
+    "tonnes": 2313.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "Northern Territory",
+    "species": "Pigs",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "Australian Capital Territory",
+    "species": "Pigs",
+    "tonnes": 0.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "Australia",
+    "species": "Poultry",
+    "tonnes": 1564981.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "New South Wales",
+    "species": "Poultry",
+    "tonnes": 615014.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "Victoria",
+    "species": "Poultry",
+    "tonnes": 299204.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  },
+  {
+    "year": 2025,
+    "state": "Queensland",
+    "species": "Poultry",
+    "tonnes": 258412.0,
+    "source": "ABS original quarterly; sum of 4 quarters"
+  }
+]

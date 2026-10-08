@@ -1,0 +1,311 @@
+year,state,species,tonnes,source
+2016,Australia,Cattle,2125054.0,ABS original quarterly; sum of 4 quarters
+2016,New South Wales,Cattle,466444.0,ABS original quarterly; sum of 4 quarters
+2016,Victoria,Cattle,362264.0,ABS original quarterly; sum of 4 quarters
+2016,Queensland,Cattle,1028356.0,ABS original quarterly; sum of 4 quarters
+2016,South Australia,Cattle,108429.0,ABS original quarterly; sum of 4 quarters
+2016,Western Australia,Cattle,104827.0,ABS original quarterly; sum of 4 quarters
+2016,Tasmania,Cattle,54734.0,ABS original quarterly; sum of 4 quarters
+2016,Northern Territory,Cattle,0.0,ABS original quarterly; sum of 4 quarters
+2016,Australian Capital Territory,Cattle,0.0,ABS original quarterly; sum of 4 quarters
+2016,Australia,Sheep,685818.0,ABS original quarterly; sum of 4 quarters
+2016,New South Wales,Sheep,163493.0,ABS original quarterly; sum of 4 quarters
+2016,Victoria,Sheep,287704.0,ABS original quarterly; sum of 4 quarters
+2016,Queensland,Sheep,7082.0,ABS original quarterly; sum of 4 quarters
+2016,South Australia,Sheep,116423.0,ABS original quarterly; sum of 4 quarters
+2016,Western Australia,Sheep,95501.0,ABS original quarterly; sum of 4 quarters
+2016,Tasmania,Sheep,15615.0,ABS original quarterly; sum of 4 quarters
+2016,Northern Territory,Sheep,0.0,ABS original quarterly; sum of 4 quarters
+2016,Australian Capital Territory,Sheep,0.0,ABS original quarterly; sum of 4 quarters
+2016,Australia,Pigs,386055.0,ABS original quarterly; sum of 4 quarters
+2016,New South Wales,Pigs,60156.0,ABS original quarterly; sum of 4 quarters
+2016,Victoria,Pigs,88405.0,ABS original quarterly; sum of 4 quarters
+2016,Queensland,Pigs,87438.0,ABS original quarterly; sum of 4 quarters
+2016,South Australia,Pigs,96299.0,ABS original quarterly; sum of 4 quarters
+2016,Western Australia,Pigs,51533.0,ABS original quarterly; sum of 4 quarters
+2016,Tasmania,Pigs,2225.0,ABS original quarterly; sum of 4 quarters
+2016,Northern Territory,Pigs,0.0,ABS original quarterly; sum of 4 quarters
+2016,Australian Capital Territory,Pigs,0.0,ABS original quarterly; sum of 4 quarters
+2016,Australia,Poultry,1225275.0,ABS original quarterly; sum of 4 quarters
+2016,New South Wales,Poultry,389402.0,ABS original quarterly; sum of 4 quarters
+2016,Victoria,Poultry,254249.0,ABS original quarterly; sum of 4 quarters
+2016,Queensland,Poultry,264959.0,ABS original quarterly; sum of 4 quarters
+2017,Australia,Cattle,2149079.0,ABS original quarterly; sum of 4 quarters
+2017,New South Wales,Cattle,476393.0,ABS original quarterly; sum of 4 quarters
+2017,Victoria,Cattle,358795.0,ABS original quarterly; sum of 4 quarters
+2017,Queensland,Cattle,1035755.0,ABS original quarterly; sum of 4 quarters
+2017,South Australia,Cattle,114001.0,ABS original quarterly; sum of 4 quarters
+2017,Western Australia,Cattle,102866.0,ABS original quarterly; sum of 4 quarters
+2017,Tasmania,Cattle,61262.0,ABS original quarterly; sum of 4 quarters
+2017,Northern Territory,Cattle,0.0,ABS original quarterly; sum of 4 quarters
+2017,Australian Capital Territory,Cattle,0.0,ABS original quarterly; sum of 4 quarters
+2017,Australia,Sheep,697657.0,ABS original quarterly; sum of 4 quarters
+2017,New South Wales,Sheep,174910.0,ABS original quarterly; sum of 4 quarters
+2017,Victoria,Sheep,312614.0,ABS original quarterly; sum of 4 quarters
+2017,Queensland,Sheep,2107.0,ABS original quarterly; sum of 4 quarters
+2017,South Australia,Sheep,113855.0,ABS original quarterly; sum of 4 quarters
+2017,Western Australia,Sheep,82618.0,ABS original quarterly; sum of 4 quarters
+2017,Tasmania,Sheep,11551.0,ABS original quarterly; sum of 4 quarters
+2017,Northern Territory,Sheep,0.0,ABS original quarterly; sum of 4 quarters
+2017,Australian Capital Territory,Sheep,0.0,ABS original quarterly; sum of 4 quarters
+2017,Australia,Pigs,407972.0,ABS original quarterly; sum of 4 quarters
+2017,New South Wales,Pigs,67464.0,ABS original quarterly; sum of 4 quarters
+2017,Victoria,Pigs,91291.0,ABS original quarterly; sum of 4 quarters
+2017,Queensland,Pigs,87566.0,ABS original quarterly; sum of 4 quarters
+2017,South Australia,Pigs,103997.0,ABS original quarterly; sum of 4 quarters
+2017,Western Australia,Pigs,55304.0,ABS original quarterly; sum of 4 quarters
+2017,Tasmania,Pigs,2351.0,ABS original quarterly; sum of 4 quarters
+2017,Northern Territory,Pigs,0.0,ABS original quarterly; sum of 4 quarters
+2017,Australian Capital Territory,Pigs,0.0,ABS original quarterly; sum of 4 quarters
+2017,Australia,Poultry,1220148.0,ABS original quarterly; sum of 4 quarters
+2017,New South Wales,Poultry,410742.0,ABS original quarterly; sum of 4 quarters
+2017,Victoria,Poultry,226137.0,ABS original quarterly; sum of 4 quarters
+2017,Queensland,Poultry,265240.0,ABS original quarterly; sum of 4 quarters
+2018,Australia,Cattle,2308548.0,ABS original quarterly; sum of 4 quarters
+2018,New South Wales,Cattle,524809.0,ABS original quarterly; sum of 4 quarters
+2018,Victoria,Cattle,436659.0,ABS original quarterly; sum of 4 quarters
+2018,Queensland,Cattle,1108921.0,ABS original quarterly; sum of 4 quarters
+2018,South Australia,Cattle,64409.0,ABS original quarterly; sum of 4 quarters
+2018,Western Australia,Cattle,106041.0,ABS original quarterly; sum of 4 quarters
+2018,Tasmania,Cattle,67707.0,ABS original quarterly; sum of 4 quarters
+2018,Northern Territory,Cattle,0.0,ABS original quarterly; sum of 4 quarters
+2018,Australian Capital Territory,Cattle,0.0,ABS original quarterly; sum of 4 quarters
+2018,Australia,Sheep,736558.0,ABS original quarterly; sum of 4 quarters
+2018,New South Wales,Sheep,191883.0,ABS original quarterly; sum of 4 quarters
+2018,Victoria,Sheep,354717.0,ABS original quarterly; sum of 4 quarters
+2018,Queensland,Sheep,3678.0,ABS original quarterly; sum of 4 quarters
+2018,South Australia,Sheep,86799.0,ABS original quarterly; sum of 4 quarters
+2018,Western Australia,Sheep,89051.0,ABS original quarterly; sum of 4 quarters
+2018,Tasmania,Sheep,10431.0,ABS original quarterly; sum of 4 quarters
+2018,Northern Territory,Sheep,0.0,ABS original quarterly; sum of 4 quarters
+2018,Australian Capital Territory,Sheep,0.0,ABS original quarterly; sum of 4 quarters
+2018,Australia,Pigs,424213.0,ABS original quarterly; sum of 4 quarters
+2018,New South Wales,Pigs,65971.0,ABS original quarterly; sum of 4 quarters
+2018,Victoria,Pigs,89766.0,ABS original quarterly; sum of 4 quarters
+2018,Queensland,Pigs,96433.0,ABS original quarterly; sum of 4 quarters
+2018,South Australia,Pigs,104948.0,ABS original quarterly; sum of 4 quarters
+2018,Western Australia,Pigs,64705.0,ABS original quarterly; sum of 4 quarters
+2018,Tasmania,Pigs,2391.0,ABS original quarterly; sum of 4 quarters
+2018,Northern Territory,Pigs,0.0,ABS original quarterly; sum of 4 quarters
+2018,Australian Capital Territory,Pigs,0.0,ABS original quarterly; sum of 4 quarters
+2018,Australia,Poultry,1212549.0,ABS original quarterly; sum of 4 quarters
+2018,New South Wales,Poultry,444264.0,ABS original quarterly; sum of 4 quarters
+2018,Victoria,Poultry,210255.0,ABS original quarterly; sum of 4 quarters
+2018,Queensland,Poultry,221880.0,ABS original quarterly; sum of 4 quarters
+2019,Australia,Cattle,2431805.0,ABS original quarterly; sum of 4 quarters
+2019,New South Wales,Cattle,543375.0,ABS original quarterly; sum of 4 quarters
+2019,Victoria,Cattle,489449.0,ABS original quarterly; sum of 4 quarters
+2019,Queensland,Cattle,1151327.0,ABS original quarterly; sum of 4 quarters
+2019,South Australia,Cattle,63086.0,ABS original quarterly; sum of 4 quarters
+2019,Western Australia,Cattle,116777.0,ABS original quarterly; sum of 4 quarters
+2019,Tasmania,Cattle,67792.0,ABS original quarterly; sum of 4 quarters
+2019,Northern Territory,Cattle,0.0,ABS original quarterly; sum of 4 quarters
+2019,Australian Capital Territory,Cattle,0.0,ABS original quarterly; sum of 4 quarters
+2019,Australia,Sheep,731279.0,ABS original quarterly; sum of 4 quarters
+2019,New South Wales,Sheep,199306.0,ABS original quarterly; sum of 4 quarters
+2019,Victoria,Sheep,344293.0,ABS original quarterly; sum of 4 quarters
+2019,Queensland,Sheep,4415.0,ABS original quarterly; sum of 4 quarters
+2019,South Australia,Sheep,79232.0,ABS original quarterly; sum of 4 quarters
+2019,Western Australia,Sheep,95512.0,ABS original quarterly; sum of 4 quarters
+2019,Tasmania,Sheep,8521.0,ABS original quarterly; sum of 4 quarters
+2019,Northern Territory,Sheep,0.0,ABS original quarterly; sum of 4 quarters
+2019,Australian Capital Territory,Sheep,0.0,ABS original quarterly; sum of 4 quarters
+2019,Australia,Pigs,397735.0,ABS original quarterly; sum of 4 quarters
+2019,New South Wales,Pigs,62102.0,ABS original quarterly; sum of 4 quarters
+2019,Victoria,Pigs,91962.0,ABS original quarterly; sum of 4 quarters
+2019,Queensland,Pigs,94145.0,ABS original quarterly; sum of 4 quarters
+2019,South Australia,Pigs,87521.0,ABS original quarterly; sum of 4 quarters
+2019,Western Australia,Pigs,59832.0,ABS original quarterly; sum of 4 quarters
+2019,Tasmania,Pigs,2173.0,ABS original quarterly; sum of 4 quarters
+2019,Northern Territory,Pigs,0.0,ABS original quarterly; sum of 4 quarters
+2019,Australian Capital Territory,Pigs,0.0,ABS original quarterly; sum of 4 quarters
+2019,Australia,Poultry,1226601.0,ABS original quarterly; sum of 4 quarters
+2019,New South Wales,Poultry,448428.0,ABS original quarterly; sum of 4 quarters
+2019,Victoria,Poultry,213462.0,ABS original quarterly; sum of 4 quarters
+2019,Queensland,Poultry,225690.0,ABS original quarterly; sum of 4 quarters
+2020,Australia,Cattle,2122926.0,ABS original quarterly; sum of 4 quarters
+2020,New South Wales,Cattle,452389.0,ABS original quarterly; sum of 4 quarters
+2020,Victoria,Cattle,441326.0,ABS original quarterly; sum of 4 quarters
+2020,Queensland,Cattle,990473.0,ABS original quarterly; sum of 4 quarters
+2020,South Australia,Cattle,54946.0,ABS original quarterly; sum of 4 quarters
+2020,Western Australia,Cattle,114659.0,ABS original quarterly; sum of 4 quarters
+2020,Tasmania,Cattle,69133.0,ABS original quarterly; sum of 4 quarters
+2020,Northern Territory,Cattle,0.0,ABS original quarterly; sum of 4 quarters
+2020,Australian Capital Territory,Cattle,0.0,ABS original quarterly; sum of 4 quarters
+2020,Australia,Sheep,657790.0,ABS original quarterly; sum of 4 quarters
+2020,New South Wales,Sheep,182274.0,ABS original quarterly; sum of 4 quarters
+2020,Victoria,Sheep,304995.0,ABS original quarterly; sum of 4 quarters
+2020,Queensland,Sheep,2861.0,ABS original quarterly; sum of 4 quarters
+2020,South Australia,Sheep,70653.0,ABS original quarterly; sum of 4 quarters
+2020,Western Australia,Sheep,90483.0,ABS original quarterly; sum of 4 quarters
+2020,Tasmania,Sheep,6524.0,ABS original quarterly; sum of 4 quarters
+2020,Northern Territory,Sheep,0.0,ABS original quarterly; sum of 4 quarters
+2020,Australian Capital Territory,Sheep,0.0,ABS original quarterly; sum of 4 quarters
+2020,Australia,Pigs,418726.0,ABS original quarterly; sum of 4 quarters
+2020,New South Wales,Pigs,63476.0,ABS original quarterly; sum of 4 quarters
+2020,Victoria,Pigs,92178.0,ABS original quarterly; sum of 4 quarters
+2020,Queensland,Pigs,101033.0,ABS original quarterly; sum of 4 quarters
+2020,South Australia,Pigs,94822.0,ABS original quarterly; sum of 4 quarters
+2020,Western Australia,Pigs,65501.0,ABS original quarterly; sum of 4 quarters
+2020,Tasmania,Pigs,1718.0,ABS original quarterly; sum of 4 quarters
+2020,Northern Territory,Pigs,0.0,ABS original quarterly; sum of 4 quarters
+2020,Australian Capital Territory,Pigs,0.0,ABS original quarterly; sum of 4 quarters
+2020,Australia,Poultry,1270768.0,ABS original quarterly; sum of 4 quarters
+2020,New South Wales,Poultry,451345.0,ABS original quarterly; sum of 4 quarters
+2020,Victoria,Poultry,235784.0,ABS original quarterly; sum of 4 quarters
+2020,Queensland,Poultry,230977.0,ABS original quarterly; sum of 4 quarters
+2021,Australia,Cattle,1894841.0,ABS original quarterly; sum of 4 quarters
+2021,New South Wales,Cattle,390558.0,ABS original quarterly; sum of 4 quarters
+2021,Victoria,Cattle,373519.0,ABS original quarterly; sum of 4 quarters
+2021,Queensland,Cattle,935955.0,ABS original quarterly; sum of 4 quarters
+2021,South Australia,Cattle,42796.0,ABS original quarterly; sum of 4 quarters
+2021,Western Australia,Cattle,92212.0,ABS original quarterly; sum of 4 quarters
+2021,Tasmania,Cattle,59802.0,ABS original quarterly; sum of 4 quarters
+2021,Northern Territory,Cattle,0.0,ABS original quarterly; sum of 4 quarters
+2021,Australian Capital Territory,Cattle,0.0,ABS original quarterly; sum of 4 quarters
+2021,Australia,Sheep,662973.0,ABS original quarterly; sum of 4 quarters
+2021,New South Wales,Sheep,187670.0,ABS original quarterly; sum of 4 quarters
+2021,Victoria,Sheep,308058.0,ABS original quarterly; sum of 4 quarters
+2021,Queensland,Sheep,3238.0,ABS original quarterly; sum of 4 quarters
+2021,South Australia,Sheep,67772.0,ABS original quarterly; sum of 4 quarters
+2021,Western Australia,Sheep,88587.0,ABS original quarterly; sum of 4 quarters
+2021,Tasmania,Sheep,7648.0,ABS original quarterly; sum of 4 quarters
+2021,Northern Territory,Sheep,0.0,ABS original quarterly; sum of 4 quarters
+2021,Australian Capital Territory,Sheep,0.0,ABS original quarterly; sum of 4 quarters
+2021,Australia,Pigs,443226.0,ABS original quarterly; sum of 4 quarters
+2021,New South Wales,Pigs,65552.0,ABS original quarterly; sum of 4 quarters
+2021,Victoria,Pigs,99997.0,ABS original quarterly; sum of 4 quarters
+2021,Queensland,Pigs,106050.0,ABS original quarterly; sum of 4 quarters
+2021,South Australia,Pigs,102906.0,ABS original quarterly; sum of 4 quarters
+2021,Western Australia,Pigs,66995.0,ABS original quarterly; sum of 4 quarters
+2021,Tasmania,Pigs,1728.0,ABS original quarterly; sum of 4 quarters
+2021,Northern Territory,Pigs,0.0,ABS original quarterly; sum of 4 quarters
+2021,Australian Capital Territory,Pigs,0.0,ABS original quarterly; sum of 4 quarters
+2021,Australia,Poultry,1337317.0,ABS original quarterly; sum of 4 quarters
+2021,New South Wales,Poultry,476228.0,ABS original quarterly; sum of 4 quarters
+2021,Victoria,Poultry,256212.0,ABS original quarterly; sum of 4 quarters
+2021,Queensland,Poultry,245744.0,ABS original quarterly; sum of 4 quarters
+2022,Australia,Cattle,1878088.0,ABS original quarterly; sum of 4 quarters
+2022,New South Wales,Cattle,398389.0,ABS original quarterly; sum of 4 quarters
+2022,Victoria,Cattle,353008.0,ABS original quarterly; sum of 4 quarters
+2022,Queensland,Cattle,914555.0,ABS original quarterly; sum of 4 quarters
+2022,South Australia,Cattle,45711.0,ABS original quarterly; sum of 4 quarters
+2022,Western Australia,Cattle,108109.0,ABS original quarterly; sum of 4 quarters
+2022,Tasmania,Cattle,58317.0,ABS original quarterly; sum of 4 quarters
+2022,Northern Territory,Cattle,0.0,ABS original quarterly; sum of 4 quarters
+2022,Australian Capital Territory,Cattle,0.0,ABS original quarterly; sum of 4 quarters
+2022,Australia,Sheep,709932.0,ABS original quarterly; sum of 4 quarters
+2022,New South Wales,Sheep,200957.0,ABS original quarterly; sum of 4 quarters
+2022,Victoria,Sheep,334274.0,ABS original quarterly; sum of 4 quarters
+2022,Queensland,Sheep,2338.0,ABS original quarterly; sum of 4 quarters
+2022,South Australia,Sheep,70305.0,ABS original quarterly; sum of 4 quarters
+2022,Western Australia,Sheep,93445.0,ABS original quarterly; sum of 4 quarters
+2022,Tasmania,Sheep,8610.0,ABS original quarterly; sum of 4 quarters
+2022,Northern Territory,Sheep,0.0,ABS original quarterly; sum of 4 quarters
+2022,Australian Capital Territory,Sheep,0.0,ABS original quarterly; sum of 4 quarters
+2022,Australia,Pigs,436274.0,ABS original quarterly; sum of 4 quarters
+2022,New South Wales,Pigs,61139.0,ABS original quarterly; sum of 4 quarters
+2022,Victoria,Pigs,91762.0,ABS original quarterly; sum of 4 quarters
+2022,Queensland,Pigs,113723.0,ABS original quarterly; sum of 4 quarters
+2022,South Australia,Pigs,101935.0,ABS original quarterly; sum of 4 quarters
+2022,Western Australia,Pigs,65759.0,ABS original quarterly; sum of 4 quarters
+2022,Tasmania,Pigs,1959.0,ABS original quarterly; sum of 4 quarters
+2022,Northern Territory,Pigs,0.0,ABS original quarterly; sum of 4 quarters
+2022,Australian Capital Territory,Pigs,0.0,ABS original quarterly; sum of 4 quarters
+2022,Australia,Poultry,1364171.0,ABS original quarterly; sum of 4 quarters
+2022,New South Wales,Poultry,488870.0,ABS original quarterly; sum of 4 quarters
+2022,Victoria,Poultry,270091.0,ABS original quarterly; sum of 4 quarters
+2022,Queensland,Poultry,246111.0,ABS original quarterly; sum of 4 quarters
+2023,Australia,Cattle,2221595.0,ABS original quarterly; sum of 4 quarters
+2023,New South Wales,Cattle,480907.0,ABS original quarterly; sum of 4 quarters
+2023,Victoria,Cattle,437091.0,ABS original quarterly; sum of 4 quarters
+2023,Queensland,Cattle,1058623.0,ABS original quarterly; sum of 4 quarters
+2023,South Australia,Cattle,59538.0,ABS original quarterly; sum of 4 quarters
+2023,Western Australia,Cattle,117706.0,ABS original quarterly; sum of 4 quarters
+2023,Tasmania,Cattle,67727.0,ABS original quarterly; sum of 4 quarters
+2023,Northern Territory,Cattle,0.0,ABS original quarterly; sum of 4 quarters
+2023,Australian Capital Territory,Cattle,0.0,ABS original quarterly; sum of 4 quarters
+2023,Australia,Sheep,846568.0,ABS original quarterly; sum of 4 quarters
+2023,New South Wales,Sheep,237902.0,ABS original quarterly; sum of 4 quarters
+2023,Victoria,Sheep,399040.0,ABS original quarterly; sum of 4 quarters
+2023,Queensland,Sheep,1764.0,ABS original quarterly; sum of 4 quarters
+2023,South Australia,Sheep,78171.0,ABS original quarterly; sum of 4 quarters
+2023,Western Australia,Sheep,117681.0,ABS original quarterly; sum of 4 quarters
+2023,Tasmania,Sheep,12006.0,ABS original quarterly; sum of 4 quarters
+2023,Northern Territory,Sheep,0.0,ABS original quarterly; sum of 4 quarters
+2023,Australian Capital Territory,Sheep,0.0,ABS original quarterly; sum of 4 quarters
+2023,Australia,Pigs,466786.0,ABS original quarterly; sum of 4 quarters
+2023,New South Wales,Pigs,64217.0,ABS original quarterly; sum of 4 quarters
+2023,Victoria,Pigs,105114.0,ABS original quarterly; sum of 4 quarters
+2023,Queensland,Pigs,123082.0,ABS original quarterly; sum of 4 quarters
+2023,South Australia,Pigs,97438.0,ABS original quarterly; sum of 4 quarters
+2023,Western Australia,Pigs,74942.0,ABS original quarterly; sum of 4 quarters
+2023,Tasmania,Pigs,1992.0,ABS original quarterly; sum of 4 quarters
+2023,Northern Territory,Pigs,0.0,ABS original quarterly; sum of 4 quarters
+2023,Australian Capital Territory,Pigs,0.0,ABS original quarterly; sum of 4 quarters
+2023,Australia,Poultry,1413189.0,ABS original quarterly; sum of 4 quarters
+2023,New South Wales,Poultry,516087.0,ABS original quarterly; sum of 4 quarters
+2023,Victoria,Poultry,273956.0,ABS original quarterly; sum of 4 quarters
+2023,Queensland,Poultry,250470.0,ABS original quarterly; sum of 4 quarters
+2024,Australia,Cattle,2582427.0,ABS original quarterly; sum of 4 quarters
+2024,New South Wales,Cattle,545724.0,ABS original quarterly; sum of 4 quarters
+2024,Victoria,Cattle,555858.0,ABS original quarterly; sum of 4 quarters
+2024,Queensland,Cattle,1190137.0,ABS original quarterly; sum of 4 quarters
+2024,South Australia,Cattle,94536.0,ABS original quarterly; sum of 4 quarters
+2024,Western Australia,Cattle,127837.0,ABS original quarterly; sum of 4 quarters
+2024,Tasmania,Cattle,68335.0,ABS original quarterly; sum of 4 quarters
+2024,Northern Territory,Cattle,0.0,ABS original quarterly; sum of 4 quarters
+2024,Australian Capital Territory,Cattle,0.0,ABS original quarterly; sum of 4 quarters
+2024,Australia,Sheep,927230.0,ABS original quarterly; sum of 4 quarters
+2024,New South Wales,Sheep,257459.0,ABS original quarterly; sum of 4 quarters
+2024,Victoria,Sheep,446565.0,ABS original quarterly; sum of 4 quarters
+2024,Queensland,Sheep,1922.0,ABS original quarterly; sum of 4 quarters
+2024,South Australia,Sheep,86394.0,ABS original quarterly; sum of 4 quarters
+2024,Western Australia,Sheep,121150.0,ABS original quarterly; sum of 4 quarters
+2024,Tasmania,Sheep,13738.0,ABS original quarterly; sum of 4 quarters
+2024,Northern Territory,Sheep,0.0,ABS original quarterly; sum of 4 quarters
+2024,Australian Capital Territory,Sheep,0.0,ABS original quarterly; sum of 4 quarters
+2024,Australia,Pigs,470502.0,ABS original quarterly; sum of 4 quarters
+2024,New South Wales,Pigs,64531.0,ABS original quarterly; sum of 4 quarters
+2024,Victoria,Pigs,109391.0,ABS original quarterly; sum of 4 quarters
+2024,Queensland,Pigs,122277.0,ABS original quarterly; sum of 4 quarters
+2024,South Australia,Pigs,97699.0,ABS original quarterly; sum of 4 quarters
+2024,Western Australia,Pigs,74275.0,ABS original quarterly; sum of 4 quarters
+2024,Tasmania,Pigs,2331.0,ABS original quarterly; sum of 4 quarters
+2024,Northern Territory,Pigs,0.0,ABS original quarterly; sum of 4 quarters
+2024,Australian Capital Territory,Pigs,0.0,ABS original quarterly; sum of 4 quarters
+2024,Australia,Poultry,1477685.0,ABS original quarterly; sum of 4 quarters
+2024,New South Wales,Poultry,558286.0,ABS original quarterly; sum of 4 quarters
+2024,Victoria,Poultry,277935.0,ABS original quarterly; sum of 4 quarters
+2024,Queensland,Poultry,261536.0,ABS original quarterly; sum of 4 quarters
+2025,Australia,Cattle,2886281.0,ABS original quarterly; sum of 4 quarters
+2025,New South Wales,Cattle,647022.0,ABS original quarterly; sum of 4 quarters
+2025,Victoria,Cattle,633979.0,ABS original quarterly; sum of 4 quarters
+2025,Queensland,Cattle,1284316.0,ABS original quarterly; sum of 4 quarters
+2025,South Australia,Cattle,115567.0,ABS original quarterly; sum of 4 quarters
+2025,Western Australia,Cattle,136832.0,ABS original quarterly; sum of 4 quarters
+2025,Tasmania,Cattle,68567.0,ABS original quarterly; sum of 4 quarters
+2025,Northern Territory,Cattle,0.0,ABS original quarterly; sum of 4 quarters
+2025,Australian Capital Territory,Cattle,0.0,ABS original quarterly; sum of 4 quarters
+2025,Australia,Sheep,855825.0,ABS original quarterly; sum of 4 quarters
+2025,New South Wales,Sheep,241729.0,ABS original quarterly; sum of 4 quarters
+2025,Victoria,Sheep,409120.0,ABS original quarterly; sum of 4 quarters
+2025,Queensland,Sheep,1986.0,ABS original quarterly; sum of 4 quarters
+2025,South Australia,Sheep,76513.0,ABS original quarterly; sum of 4 quarters
+2025,Western Australia,Sheep,111758.0,ABS original quarterly; sum of 4 quarters
+2025,Tasmania,Sheep,14718.0,ABS original quarterly; sum of 4 quarters
+2025,Northern Territory,Sheep,0.0,ABS original quarterly; sum of 4 quarters
+2025,Australian Capital Territory,Sheep,0.0,ABS original quarterly; sum of 4 quarters
+2025,Australia,Pigs,475071.0,ABS original quarterly; sum of 4 quarters
+2025,New South Wales,Pigs,66507.0,ABS original quarterly; sum of 4 quarters
+2025,Victoria,Pigs,108520.0,ABS original quarterly; sum of 4 quarters
+2025,Queensland,Pigs,124066.0,ABS original quarterly; sum of 4 quarters
+2025,South Australia,Pigs,101312.0,ABS original quarterly; sum of 4 quarters
+2025,Western Australia,Pigs,72355.0,ABS original quarterly; sum of 4 quarters
+2025,Tasmania,Pigs,2313.0,ABS original quarterly; sum of 4 quarters
+2025,Northern Territory,Pigs,0.0,ABS original quarterly; sum of 4 quarters
+2025,Australian Capital Territory,Pigs,0.0,ABS original quarterly; sum of 4 quarters
+2025,Australia,Poultry,1564981.0,ABS original quarterly; sum of 4 quarters
+2025,New South Wales,Poultry,615014.0,ABS original quarterly; sum of 4 quarters
+2025,Victoria,Poultry,299204.0,ABS original quarterly; sum of 4 quarters
+2025,Queensland,Poultry,258412.0,ABS original quarterly; sum of 4 quarters
