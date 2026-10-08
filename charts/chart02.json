@@ -1,0 +1,109 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 210,
+  "background": null,
+  "padding": {
+    "left": 4,
+    "right": 8,
+    "top": 5,
+    "bottom": 3
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Arial, sans-serif",
+      "titleFont": "Arial, sans-serif",
+      "labelColor": "#64756e",
+      "titleColor": "#64756e",
+      "labelFontSize": 10,
+      "titleFontSize": 10,
+      "gridColor": "#e7eae3",
+      "tickColor": "#cbd4cc",
+      "domainColor": "#cbd4cc",
+      "titlePadding": 7
+    },
+    "legend": {
+      "labelFont": "Arial, sans-serif",
+      "titleFont": "Arial, sans-serif",
+      "labelColor": "#62736a",
+      "titleColor": "#334a3f",
+      "labelFontSize": 10,
+      "orient": "bottom",
+      "symbolSize": 65
+    },
+    "text": {
+      "font": "Arial, sans-serif"
+    }
+  },
+  "projection": {
+    "type": "equalEarth"
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/anthwri/GeoJson-Data/master/australian-states.json",
+        "format": {
+          "type": "json",
+          "property": "features"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#e8ede7",
+        "stroke": "#ffffff",
+        "strokeWidth": 1
+      }
+    },
+    {
+      "data": {
+        "values": []
+      },
+      "mark": {
+        "type": "circle",
+        "fill": "#4b846b",
+        "stroke": "#fffcf4",
+        "strokeWidth": 1.6,
+        "opacity": 0.82
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "size": {
+          "field": "tonnes",
+          "type": "quantitative",
+          "scale": {
+            "type": "sqrt",
+            "range": [
+              35,
+              2000
+            ]
+          },
+          "legend": {
+            "title": "Tonnes",
+            "orient": "bottom"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "type": "nominal"
+          },
+          {
+            "field": "tonnes",
+            "type": "quantitative",
+            "format": ",.0f"
+          }
+        ]
+      }
+    }
+  ]
+}

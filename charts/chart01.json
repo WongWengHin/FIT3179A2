@@ -1,0 +1,134 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 210,
+  "background": null,
+  "padding": {
+    "left": 4,
+    "right": 8,
+    "top": 5,
+    "bottom": 3
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Arial, sans-serif",
+      "titleFont": "Arial, sans-serif",
+      "labelColor": "#64756e",
+      "titleColor": "#64756e",
+      "labelFontSize": 10,
+      "titleFontSize": 10,
+      "gridColor": "#e7eae3",
+      "tickColor": "#cbd4cc",
+      "domainColor": "#cbd4cc",
+      "titlePadding": 7
+    },
+    "legend": {
+      "labelFont": "Arial, sans-serif",
+      "titleFont": "Arial, sans-serif",
+      "labelColor": "#62736a",
+      "titleColor": "#334a3f",
+      "labelFontSize": 10,
+      "orient": "bottom",
+      "symbolSize": 65
+    },
+    "text": {
+      "font": "Arial, sans-serif"
+    }
+  },
+  "projection": {
+    "type": "equalEarth"
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/anthwri/GeoJson-Data/master/australian-states.json",
+        "format": {
+          "type": "json",
+          "property": "features"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#e6eae5",
+        "stroke": "#fffef8",
+        "strokeWidth": 1
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/anthwri/GeoJson-Data/master/australian-states.json",
+        "format": {
+          "type": "json",
+          "property": "features"
+        }
+      },
+      "transform": [
+        {
+          "calculate": "datum.properties.STATE_NAME",
+          "as": "state"
+        },
+        {
+          "lookup": "state",
+          "from": {
+            "data": {
+              "values": []
+            },
+            "key": "state",
+            "fields": [
+              "share",
+              "tonnes",
+              "state",
+              "year"
+            ]
+          }
+        },
+        {
+          "filter": "isValid(datum.share)"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "stroke": "#fffef8",
+        "strokeWidth": 1.3
+      },
+      "encoding": {
+        "color": {
+          "field": "share",
+          "type": "quantitative",
+          "scale": {
+            "scheme": "greens",
+            "domain": [
+              0,
+              55
+            ]
+          },
+          "legend": {
+            "title": "National share (%)",
+            "gradientLength": 95
+          }
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "type": "nominal"
+          },
+          {
+            "field": "tonnes",
+            "type": "quantitative",
+            "title": "Tonnes",
+            "format": ",.0f"
+          },
+          {
+            "field": "share",
+            "type": "quantitative",
+            "title": "National share %",
+            "format": ".1f"
+          }
+        ]
+      }
+    }
+  ]
+}

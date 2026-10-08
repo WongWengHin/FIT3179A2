@@ -1,0 +1,163 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 198,
+  "background": null,
+  "padding": {
+    "left": 4,
+    "right": 8,
+    "top": 5,
+    "bottom": 3
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Arial, sans-serif",
+      "titleFont": "Arial, sans-serif",
+      "labelColor": "#64756e",
+      "titleColor": "#64756e",
+      "labelFontSize": 10,
+      "titleFontSize": 10,
+      "gridColor": "#e7eae3",
+      "tickColor": "#cbd4cc",
+      "domainColor": "#cbd4cc",
+      "titlePadding": 7
+    },
+    "legend": {
+      "labelFont": "Arial, sans-serif",
+      "titleFont": "Arial, sans-serif",
+      "labelColor": "#62736a",
+      "titleColor": "#334a3f",
+      "labelFontSize": 10,
+      "orient": "bottom",
+      "symbolSize": 65
+    },
+    "text": {
+      "font": "Arial, sans-serif"
+    }
+  },
+  "layer": [
+    {
+      "data": {
+        "values": []
+      },
+      "mark": {
+        "type": "rect",
+        "cornerRadius": 4,
+        "stroke": "#fffefa",
+        "strokeWidth": 3
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [
+              -0.2,
+              4.2
+            ]
+          }
+        },
+        "x2": {
+          "field": "x2"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [
+              -0.2,
+              4.2
+            ],
+            "reverse": true
+          }
+        },
+        "y2": {
+          "field": "y2"
+        },
+        "color": {
+          "field": "leader",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Cattle",
+              "Sheep",
+              "Pigs",
+              "Unavailable"
+            ],
+            "range": [
+              "#498269",
+              "#d3a74e",
+              "#c86e59",
+              "#e1e6df"
+            ]
+          },
+          "legend": {
+            "title": "Most specialised in"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "type": "nominal"
+          },
+          {
+            "field": "leader",
+            "type": "nominal",
+            "title": "Relative specialisation"
+          },
+          {
+            "field": "index",
+            "type": "quantitative",
+            "title": "Index vs national mix",
+            "format": ".2f"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": []
+      },
+      "mark": {
+        "type": "text",
+        "fontWeight": "bold",
+        "fontSize": 12,
+        "color": "#244338"
+      },
+      "encoding": {
+        "x": {
+          "field": "cx",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [
+              -0.2,
+              4.2
+            ]
+          }
+        },
+        "y": {
+          "field": "cy",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [
+              -0.2,
+              4.2
+            ],
+            "reverse": true
+          }
+        },
+        "text": {
+          "field": "abbr",
+          "type": "nominal"
+        }
+      }
+    }
+  ]
+}
