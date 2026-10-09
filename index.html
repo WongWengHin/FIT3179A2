@@ -52,6 +52,7 @@
     <div class="wrap nav-row">
       <a href="#geography">01 <span>Geography</span></a>
       <a href="#change">02 <span>Trends</span></a>
+      <a href="#states">03 <span>States</span></a>
       <a href="#methods">↗ <span>Sources &amp; methods</span></a>
     </div>
   </nav>
@@ -163,6 +164,42 @@
       </div>
     </section>
 
+    <section class="chapter" id="states">
+      <div class="chapter-banner coral">
+        <div>
+          <span class="chapter-index">03 / COMPARISON</span>
+          <h2>How do states differ?</h2>
+        </div>
+        <p>Rankings, movement through time and differences between 2016 and the selected year reveal changing state roles.</p>
+      </div>
+
+      <div class="chart-grid">
+        <article class="figure">
+          <div class="fig-index">FIGURE 07 · RANKED BAR CHART</div>
+          <h3>State production ranking</h3>
+          <p class="fig-deck">Largest to smallest producers for your selected category and year.</p>
+          <div class="vis" id="vis07"></div>
+          <p class="fig-takeaway" id="note07">Only states with published comparable production values appear.</p>
+        </article>
+
+        <article class="figure">
+          <div class="fig-index">FIGURE 08 · BUMP CHART</div>
+          <h3>Shifts in state rank</h3>
+          <p class="fig-deck">Track the leading states, 2016–2025.</p>
+          <div class="vis" id="vis08"></div>
+          <p class="fig-takeaway">Higher position means a better rank, not a larger absolute margin.</p>
+        </article>
+
+        <article class="figure">
+          <div class="fig-index">FIGURE 09 · DUMBBELL CHART</div>
+          <h3>Start versus selected year</h3>
+          <p class="fig-deck">From 2016 to the chosen calendar year, measured in tonnes.</p>
+          <div class="vis" id="vis09"></div>
+          <p class="fig-takeaway"><span class="key pale"></span> 2016 &nbsp; <span class="key dark"></span> Selected year. A longer connecting line indicates a larger change.</p>
+        </article>
+      </div>
+    </section>
+
     <section class="methods" id="methods">
       <div>
         <span class="eyebrow">Behind the charts</span>
@@ -170,6 +207,7 @@
         <p><strong>ABS meat production:</strong> Quarterly ORIGINAL (not seasonally adjusted) ABS production is summed into calendar years. Cattle is beef and veal; sheep is mutton and lamb; poultry is chicken meat. Missing state quarters remain unavailable, not zero.</p>
         <p><strong>Specialisation:</strong> A state's percentage mix of cattle/sheep/pig meat is compared with Australia's equivalent red-meat mix. An index over 1 means relative specialisation. This does not measure livestock raised in that state.</p>
         <p><strong>Trends:</strong> Growth is calculated relative to the previous calendar year. Industry share is a national four-category percentage, and does not use the selected-state filter.</p>
+        <p><strong>Regional charts:</strong> Ranks exclude missing state data. Dumbbell endpoints compare 2016 with the selected year. The year and category selectors apply only where appropriate.</p>
       </div>
       <aside>
         <h3>Original public data</h3>
@@ -187,7 +225,7 @@
   <footer>
     <div class="wrap footflex">
       <span>AUSTRALIAN LIVESTOCK INDUSTRY <small>· FIT3179 · VOLUME 09</small></span>
-      <span>6 charts · ABS · October 2026</span>
+      <span>9 charts · ABS · October 2026</span>
     </div>
   </footer>
 </body>

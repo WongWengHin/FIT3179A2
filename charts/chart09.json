@@ -1,0 +1,154 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 355,
+  "background": null,
+  "padding": {
+    "left": 4,
+    "right": 8,
+    "top": 5,
+    "bottom": 3
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Arial, sans-serif",
+      "titleFont": "Arial, sans-serif",
+      "labelColor": "#64756e",
+      "titleColor": "#64756e",
+      "labelFontSize": 10,
+      "titleFontSize": 10,
+      "gridColor": "#e7eae3",
+      "tickColor": "#cbd4cc",
+      "domainColor": "#cbd4cc",
+      "titlePadding": 7
+    },
+    "legend": {
+      "labelFont": "Arial, sans-serif",
+      "titleFont": "Arial, sans-serif",
+      "labelColor": "#62736a",
+      "titleColor": "#334a3f",
+      "labelFontSize": 10,
+      "orient": "bottom",
+      "symbolSize": 65
+    },
+    "text": {
+      "font": "Arial, sans-serif"
+    }
+  },
+  "layer": [
+    {
+      "data": {
+        "values": []
+      },
+      "mark": {
+        "type": "rule",
+        "stroke": "#afbbb4",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "y": {
+          "field": "abbr",
+          "type": "nominal",
+          "sort": {
+            "field": "end",
+            "order": "descending"
+          },
+          "axis": {
+            "title": null
+          }
+        },
+        "x": {
+          "field": "start",
+          "type": "quantitative",
+          "scale": {
+            "zero": true
+          },
+          "axis": {
+            "title": "Annual tonnes",
+            "format": "~s"
+          }
+        },
+        "x2": {
+          "field": "end"
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "type": "nominal"
+          },
+          {
+            "field": "start",
+            "type": "quantitative",
+            "title": "2016 tonnes",
+            "format": ",.0f"
+          },
+          {
+            "field": "end",
+            "type": "quantitative",
+            "title": "Selected year tonnes",
+            "format": ",.0f"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": []
+      },
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "color": "#c5d0c6",
+        "size": 65
+      },
+      "encoding": {
+        "y": {
+          "field": "abbr",
+          "type": "nominal",
+          "sort": {
+            "field": "end",
+            "order": "descending"
+          },
+          "axis": {
+            "title": null
+          }
+        },
+        "x": {
+          "field": "start",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": []
+      },
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "color": "#437a62",
+        "size": 65
+      },
+      "encoding": {
+        "y": {
+          "field": "abbr",
+          "type": "nominal",
+          "sort": {
+            "field": "end",
+            "order": "descending"
+          },
+          "axis": {
+            "title": null
+          }
+        },
+        "x": {
+          "field": "end",
+          "type": "quantitative"
+        }
+      }
+    }
+  ]
+}

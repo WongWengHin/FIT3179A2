@@ -1,0 +1,111 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 355,
+  "background": null,
+  "padding": {
+    "left": 4,
+    "right": 8,
+    "top": 5,
+    "bottom": 3
+  },
+  "data": {
+    "values": []
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Arial, sans-serif",
+      "titleFont": "Arial, sans-serif",
+      "labelColor": "#64756e",
+      "titleColor": "#64756e",
+      "labelFontSize": 10,
+      "titleFontSize": 10,
+      "gridColor": "#e7eae3",
+      "tickColor": "#cbd4cc",
+      "domainColor": "#cbd4cc",
+      "titlePadding": 7
+    },
+    "legend": {
+      "labelFont": "Arial, sans-serif",
+      "titleFont": "Arial, sans-serif",
+      "labelColor": "#62736a",
+      "titleColor": "#334a3f",
+      "labelFontSize": 10,
+      "orient": "bottom",
+      "symbolSize": 65
+    },
+    "text": {
+      "font": "Arial, sans-serif"
+    }
+  },
+  "mark": {
+    "type": "line",
+    "point": {
+      "filled": true,
+      "size": 30
+    },
+    "strokeWidth": 2.4
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "quantitative",
+      "axis": {
+        "title": "Calendar year",
+        "format": "d",
+        "tickMinStep": 1
+      }
+    },
+    "y": {
+      "field": "rank",
+      "type": "quantitative",
+      "axis": {
+        "title": "Rank (1 = highest)",
+        "tickMinStep": 1,
+        "grid": true
+      },
+      "scale": {
+        "domain": [
+          6.2,
+          0.8
+        ]
+      }
+    },
+    "color": {
+      "field": "state",
+      "type": "nominal",
+      "legend": {
+        "title": "Top six states",
+        "columns": 2
+      }
+    },
+    "detail": {
+      "field": "state",
+      "type": "nominal"
+    },
+    "tooltip": [
+      {
+        "field": "state",
+        "type": "nominal"
+      },
+      {
+        "field": "year",
+        "type": "quantitative",
+        "format": "d"
+      },
+      {
+        "field": "rank",
+        "type": "quantitative",
+        "format": ".0f"
+      },
+      {
+        "field": "tonnes",
+        "type": "quantitative",
+        "format": ",.0f"
+      }
+    ]
+  }
+}
