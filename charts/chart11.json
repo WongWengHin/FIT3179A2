@@ -1,0 +1,159 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 330,
+  "background": null,
+  "padding": {
+    "left": 4,
+    "right": 8,
+    "top": 5,
+    "bottom": 3
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Arial, sans-serif",
+      "titleFont": "Arial, sans-serif",
+      "labelColor": "#64756e",
+      "titleColor": "#64756e",
+      "labelFontSize": 10,
+      "titleFontSize": 10,
+      "gridColor": "#e7eae3",
+      "tickColor": "#cbd4cc",
+      "domainColor": "#cbd4cc",
+      "titlePadding": 7
+    },
+    "legend": {
+      "labelFont": "Arial, sans-serif",
+      "titleFont": "Arial, sans-serif",
+      "labelColor": "#62736a",
+      "titleColor": "#334a3f",
+      "labelFontSize": 10,
+      "orient": "bottom",
+      "symbolSize": 65
+    },
+    "text": {
+      "font": "Arial, sans-serif"
+    }
+  },
+  "layer": [
+    {
+      "data": {
+        "values": []
+      },
+      "mark": {
+        "type": "rect",
+        "stroke": "#fffef7",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "x": {
+          "field": "x0",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [
+              0,
+              100
+            ]
+          }
+        },
+        "x2": {
+          "field": "x1"
+        },
+        "y": {
+          "field": "y0",
+          "type": "quantitative",
+          "axis": {
+            "title": "Share of farm value",
+            "format": ".0f"
+          },
+          "scale": {
+            "domain": [
+              0,
+              100
+            ],
+            "reverse": true
+          }
+        },
+        "y2": {
+          "field": "y1"
+        },
+        "color": {
+          "field": "group",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Livestock & products",
+              "Other agriculture"
+            ],
+            "range": [
+              "#4e866f",
+              "#e3e5df"
+            ]
+          },
+          "legend": {
+            "title": null
+          }
+        },
+        "tooltip": [
+          {
+            "field": "fy",
+            "type": "nominal",
+            "title": "Financial year"
+          },
+          {
+            "field": "group",
+            "type": "nominal"
+          },
+          {
+            "field": "value_m",
+            "type": "quantitative",
+            "title": "Value (A$ million)",
+            "format": ",.0f"
+          },
+          {
+            "field": "share",
+            "type": "quantitative",
+            "title": "Share (%)",
+            "format": ".1f"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": []
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 9,
+        "fontWeight": "bold",
+        "color": "#2b5141",
+        "dy": 7
+      },
+      "encoding": {
+        "x": {
+          "field": "xc",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [
+              0,
+              100
+            ]
+          }
+        },
+        "y": {
+          "value": 200
+        },
+        "text": {
+          "field": "short",
+          "type": "nominal"
+        }
+      }
+    }
+  ]
+}

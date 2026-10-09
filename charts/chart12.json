@@ -1,0 +1,184 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 355,
+  "background": null,
+  "padding": {
+    "left": 4,
+    "right": 8,
+    "top": 5,
+    "bottom": 3
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Arial, sans-serif",
+      "titleFont": "Arial, sans-serif",
+      "labelColor": "#64756e",
+      "titleColor": "#64756e",
+      "labelFontSize": 10,
+      "titleFontSize": 10,
+      "gridColor": "#e7eae3",
+      "tickColor": "#cbd4cc",
+      "domainColor": "#cbd4cc",
+      "titlePadding": 7
+    },
+    "legend": {
+      "labelFont": "Arial, sans-serif",
+      "titleFont": "Arial, sans-serif",
+      "labelColor": "#62736a",
+      "titleColor": "#334a3f",
+      "labelFontSize": 10,
+      "orient": "bottom",
+      "symbolSize": 65
+    },
+    "text": {
+      "font": "Arial, sans-serif"
+    }
+  },
+  "layer": [
+    {
+      "data": {
+        "values": [
+          {
+            "x": 0
+          }
+        ]
+      },
+      "mark": {
+        "type": "rule",
+        "stroke": "#abb9b2",
+        "strokeDash": [
+          4,
+          4
+        ]
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "y": 0
+          }
+        ]
+      },
+      "mark": {
+        "type": "rule",
+        "stroke": "#abb9b2",
+        "strokeDash": [
+          4,
+          4
+        ]
+      },
+      "encoding": {
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": []
+      },
+      "mark": {
+        "type": "circle",
+        "size": 180,
+        "opacity": 0.9,
+        "stroke": "#fff",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "x": {
+          "field": "volume_change",
+          "type": "quantitative",
+          "axis": {
+            "title": "Change in meat volume (%)",
+            "format": ".0f"
+          }
+        },
+        "y": {
+          "field": "value_change",
+          "type": "quantitative",
+          "axis": {
+            "title": "Change in output value (%)",
+            "format": ".0f"
+          }
+        },
+        "color": {
+          "field": "species",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Cattle",
+              "Sheep",
+              "Pigs",
+              "Poultry"
+            ],
+            "range": [
+              "#498269",
+              "#d3a74e",
+              "#c86e59",
+              "#629ac4"
+            ]
+          },
+          "legend": {
+            "title": null
+          }
+        },
+        "tooltip": [
+          {
+            "field": "species",
+            "type": "nominal"
+          },
+          {
+            "field": "volume_change",
+            "type": "quantitative",
+            "title": "Volume change (%)",
+            "format": "+.1f"
+          },
+          {
+            "field": "value_change",
+            "type": "quantitative",
+            "title": "Value change (%)",
+            "format": "+.1f"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": []
+      },
+      "mark": {
+        "type": "text",
+        "dx": 10,
+        "dy": -9,
+        "fontSize": 11,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "x": {
+          "field": "volume_change",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "value_change",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "species",
+          "type": "nominal"
+        }
+      }
+    }
+  ]
+}

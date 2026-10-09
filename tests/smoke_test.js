@@ -6,7 +6,7 @@ const root = path.resolve(__dirname, '..');
 const readJSON = filename => JSON.parse(fs.readFileSync(path.join(root, filename), 'utf8'));
 const meat = readJSON('data/meat_production.json');
 const econ = fs.existsSync(path.join(root, 'data/agricultural_value.json')) ? readJSON('data/agricultural_value.json') : [];
-const count = Number(process.argv[2] || 9);
+const count = Number(process.argv[2] || 12);
 const specs = Array.from({length: count}, (_, index) => readJSON(`charts/chart${String(index + 1).padStart(2, '0')}.json`));
 const elements = {};
 const document = {getElementById(id) {

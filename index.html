@@ -53,6 +53,7 @@
       <a href="#geography">01 <span>Geography</span></a>
       <a href="#change">02 <span>Trends</span></a>
       <a href="#states">03 <span>States</span></a>
+      <a href="#value">04 <span>Value</span></a>
       <a href="#methods">↗ <span>Sources &amp; methods</span></a>
     </div>
   </nav>
@@ -200,6 +201,43 @@
       </div>
     </section>
 
+    <section class="chapter" id="value">
+      <div class="chapter-banner blue">
+        <div>
+          <span class="chapter-index">04 / ECONOMY</span>
+          <h2>What does production contribute?</h2>
+        </div>
+        <p>A tonne of meat is not a dollar of income. The wider agricultural economy also includes crops, wool, milk and live exports.</p>
+      </div>
+
+      <div class="chart-grid">
+        <article class="figure">
+          <div class="fig-index">FIGURE 10 · TREEMAP</div>
+          <h3>The value of slaughtered livestock</h3>
+          <p class="fig-deck">Estimated gross value of major livestock groups, FY 2025–26.</p>
+          <div class="vis" id="vis10"></div>
+          <p class="fig-takeaway">Area represents gross value in Australian dollars, not meat tonnage.</p>
+        </article>
+
+        <article class="figure">
+          <div class="fig-index">FIGURE 11 · MOSAIC / MARIMEKKO</div>
+          <h3>Livestock within agriculture</h3>
+          <p class="fig-deck">Compare the share of livestock production and the scale of the entire farm sector.</p>
+          <div class="vis" id="vis11"></div>
+          <p class="fig-takeaway">Wider strips represent financial years with higher nominal total farm value.</p>
+        </article>
+
+        <article class="figure">
+          <div class="fig-index">FIGURE 12 · QUADRANT SCATTER</div>
+          <h3>Volume versus value</h3>
+          <p class="fig-deck">Change between FY 2024–25 and FY 2025–26 estimates.</p>
+          <div class="vis" id="vis12"></div>
+          <p class="fig-takeaway" id="note12">Comparing percentage changes in carcass-weight volume and gross value.</p>
+        </article>
+      </div>
+      <div class="story-note" id="callout-value"><strong>Economic interpretation:</strong> ABARES financial-year estimates are not the same reporting period as the ABS calendar-year series. Economic measures are not directly merged into the calendar-year map data.</div>
+    </section>
+
     <section class="methods" id="methods">
       <div>
         <span class="eyebrow">Behind the charts</span>
@@ -208,6 +246,7 @@
         <p><strong>Specialisation:</strong> A state's percentage mix of cattle/sheep/pig meat is compared with Australia's equivalent red-meat mix. An index over 1 means relative specialisation. This does not measure livestock raised in that state.</p>
         <p><strong>Trends:</strong> Growth is calculated relative to the previous calendar year. Industry share is a national four-category percentage, and does not use the selected-state filter.</p>
         <p><strong>Regional charts:</strong> Ranks exclude missing state data. Dumbbell endpoints compare 2016 with the selected year. The year and category selectors apply only where appropriate.</p>
+        <p><strong>ABARES economic value:</strong> Nominal gross values, agricultural totals and livestock carcass weights are from <em>Agricultural commodities, September quarter 2026</em>. The data uses July–June financial years, and FY 2025–26 values are estimates rather than final recorded outcomes.</p>
       </div>
       <aside>
         <h3>Original public data</h3>
@@ -215,9 +254,7 @@
         <a href="https://www.agriculture.gov.au/abares/research-topics/agricultural-outlook/data" target="_blank" rel="noopener">↗ ABARES — Agricultural commodities</a>
         <a href="https://github.com/anthwri/GeoJson-Data/blob/master/australian-states.json" target="_blank" rel="noopener">↗ Australia states GeoJSON</a>
         <p class="source-note">Map outlines are from an external GeoJSON repository. Check geographic outline licensing before public submission.</p>
-        <h3>AI disclosure</h3>
-        <p class="source-note">ChatGPT assisted with data preparation, coding, Vega-Lite diagrams and writing. Review the source values and declare this assistance in your submission.</p>
-        <p class="source-note">October 2026 · FIT3179 · Author: [replace with your name]</p>
+        <p class="source-note">October 2026 · FIT3179 · Author: Wong Weng Hin</p>
       </aside>
     </section>
   </div>
@@ -225,7 +262,7 @@
   <footer>
     <div class="wrap footflex">
       <span>AUSTRALIAN LIVESTOCK INDUSTRY <small>· FIT3179 · VOLUME 09</small></span>
-      <span>9 charts · ABS · October 2026</span>
+      <span>12 charts · ABS &amp; ABARES · October 2026</span>
     </div>
   </footer>
 </body>

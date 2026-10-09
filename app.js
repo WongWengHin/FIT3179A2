@@ -1,4 +1,4 @@
-const ACTIVE_CHART_COUNT = 9;
+const ACTIVE_CHART_COUNT = 12;
 'use strict';
 const SPECIES=['Cattle','Sheep','Pigs','Poultry'];
 const STATES=['New South Wales','Victoria','Queensland','South Australia','Western Australia','Tasmania','Northern Territory','Australian Capital Territory'];
