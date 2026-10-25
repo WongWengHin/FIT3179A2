@@ -90,24 +90,24 @@
       {
         "field": "state",
         "type": "nominal",
-        "title": "State / Territory"
+        "title": "State"
       },
       {
         "field": "year",
         "type": "quantitative",
-        "title": "Calendar year",
+        "title": "Year",
         "format": "d"
       },
       {
         "field": "rank",
         "type": "quantitative",
-        "title": "Production rank (1 = highest)",
+        "title": "Rank",
         "format": ".0f"
       },
       {
         "field": "tonnes",
         "type": "quantitative",
-        "title": "Meat production (tonnes)",
+        "title": "Output (tonnes)",
         "format": ",.0f"
       }
     ]

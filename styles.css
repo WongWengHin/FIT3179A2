@@ -135,7 +135,7 @@ a:focus-visible,select:focus-visible,button:focus-visible {
     white-space: nowrap;
 }
 
-.swatch,.key {
+.swatch,.fig-takeaway .key {
     display: inline-block;
     height: 10px;
     width: 10px;
@@ -585,27 +585,36 @@ a:not([href]) {
     }
 }
 
-/* Fix Vega-Lite tooltip appearance */
-
+/* Keep legend swatches separate from Vega tooltip table keys. */
+/* Short labels in charts/chartXX.json ensure tooltip values have room. */
 #vg-tooltip-element {
     font-family: Arial, sans-serif;
     font-size: 13px;
+    max-width: min(360px, calc(100vw - 24px));
+    z-index: 9999;
 }
 
 #vg-tooltip-element td.key {
     display: table-cell;
     width: auto;
     height: auto;
-    border-radius: 0;
     margin: 0;
+    padding: 5px 10px 5px 8px;
+    border-radius: 0;
     background: transparent;
     color: #52675b;
-    font-weight: normal;
-    white-space: nowrap;
+    font-weight: 500;
+    white-space: normal;
+    overflow-wrap: anywhere;
 }
 
 #vg-tooltip-element td.value {
+    display: table-cell;
+    width: auto;
+    padding: 5px 8px;
     color: #1f2a25;
     font-weight: 500;
-    padding-left: 15px;
+    text-align: right;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
 }

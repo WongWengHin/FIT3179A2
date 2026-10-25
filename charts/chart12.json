@@ -138,18 +138,18 @@
           {
             "field": "species",
             "type": "nominal",
-            "title": "Livestock category"
+            "title": "Meat type"
           },
           {
             "field": "volume_change",
             "type": "quantitative",
-            "title": "Meat volume change (%)",
+            "title": "Volume change (%)",
             "format": "+.1f"
           },
           {
             "field": "value_change",
             "type": "quantitative",
-            "title": "Gross value change (%)",
+            "title": "Value change (%)",
             "format": "+.1f"
           }
         ]

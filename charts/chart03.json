@@ -104,17 +104,17 @@
           {
             "field": "state",
             "type": "nominal",
-            "title": "State / Territory"
+            "title": "State"
           },
           {
             "field": "leader",
             "type": "nominal",
-            "title": "Most specialised in"
+            "title": "Specialised in"
           },
           {
             "field": "index",
             "type": "quantitative",
-            "title": "pecialisation index (national = 1)",
+            "title": "Index (AU = 1)",
             "format": ".2f"
           }
         ]

@@ -101,12 +101,12 @@
           {
             "field": "species",
             "type": "nominal",
-            "title": "Livestock category"
+            "title": "Meat type"
           },
           {
             "field": "value_m",
             "type": "quantitative",
-            "title": "Gross value (A$ million)",
+            "title": "Value (A$ million)",
             "format": ",.0f"
           }
         ]

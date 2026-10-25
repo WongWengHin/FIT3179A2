@@ -107,18 +107,18 @@
           {
             "field": "group",
             "type": "nominal",
-            "title": "Agricultural category"
+            "title": "Farm group"
           },
           {
             "field": "value_m",
             "type": "quantitative",
-            "title": "Gross value (A$ million)",
+            "title": "Value (A$ million)",
             "format": ",.0f"
           },
           {
             "field": "share",
             "type": "quantitative",
-            "title": "Share of farm output (%)",
+            "title": "Farm share (%)",
             "format": ".1f"
           }
         ]

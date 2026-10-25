@@ -78,18 +78,18 @@
           {
             "field": "state",
             "type": "nominal",
-            "title": "State / Territory"
+            "title": "State"
           },
           {
             "field": "start",
             "type": "quantitative",
-            "title": "2016 production (tonnes)",
+            "title": "2016 (tonnes)",
             "format": ",.0f"
           },
           {
             "field": "end",
             "type": "quantitative",
-            "title": "Selected-year production (tonnes)",
+            "title": "Selected (tonnes)",
             "format": ",.0f"
           }
         ]

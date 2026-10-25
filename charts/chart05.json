@@ -87,17 +87,17 @@
       {
         "field": "year",
         "type": "ordinal",
-        "title": "Calendar year"
+        "title": "Year"
       },
       {
         "field": "species",
         "type": "nominal",
-        "title": "Livestock category"
+        "title": "Meat type"
       },
       {
         "field": "pct",
         "type": "quantitative",
-        "title": "Change from previous year (%)",
+        "title": "Annual change (%)",
         "format": "+.1f"
       }
     ]
