@@ -584,3 +584,28 @@ a:not([href]) {
         grid-template-columns: 1fr;
     }
 }
+
+/* Fix Vega-Lite tooltip appearance */
+
+#vg-tooltip-element {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+#vg-tooltip-element td.key {
+    display: table-cell;
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    margin: 0;
+    background: transparent;
+    color: #52675b;
+    font-weight: normal;
+    white-space: nowrap;
+}
+
+#vg-tooltip-element td.value {
+    color: #1f2a25;
+    font-weight: 500;
+    padding-left: 15px;
+}

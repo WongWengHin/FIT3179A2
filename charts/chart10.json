@@ -100,7 +100,8 @@
         "tooltip": [
           {
             "field": "species",
-            "type": "nominal"
+            "type": "nominal",
+            "title": "Livestock category"
           },
           {
             "field": "value_m",

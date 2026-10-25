@@ -137,18 +137,19 @@
         "tooltip": [
           {
             "field": "species",
-            "type": "nominal"
+            "type": "nominal",
+            "title": "Livestock category"
           },
           {
             "field": "volume_change",
             "type": "quantitative",
-            "title": "Volume change (%)",
+            "title": "Meat volume change (%)",
             "format": "+.1f"
           },
           {
             "field": "value_change",
             "type": "quantitative",
-            "title": "Value change (%)",
+            "title": "Gross value change (%)",
             "format": "+.1f"
           }
         ]

@@ -94,15 +94,18 @@
       {
         "field": "year",
         "type": "quantitative",
+        "title": "Calendar year",
         "format": "d"
       },
       {
         "field": "species",
-        "type": "nominal"
+        "type": "nominal",
+        "title": "Livestock category"
       },
       {
         "field": "tonnes",
         "type": "quantitative",
+        "title": "Meat production (tonnes)",
         "format": ",.0f"
       }
     ]

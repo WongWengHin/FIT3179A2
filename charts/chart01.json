@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container",
-  "height": 210,
+  "height": 530,
   "background": null,
   "padding": {
     "left": 4,
@@ -113,21 +113,90 @@
         "tooltip": [
           {
             "field": "state",
-            "type": "nominal"
+            "type": "nominal",
+            "title": "State / Territory"
           },
           {
             "field": "tonnes",
             "type": "quantitative",
-            "title": "Tonnes",
+            "title": "Meat production (tonnes)",
             "format": ",.0f"
           },
           {
             "field": "share",
             "type": "quantitative",
-            "title": "National share %",
+            "title": "National production share (%)",
             "format": ".1f"
           }
         ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "abbr": "WA",
+            "lon": 121.6,
+            "lat": -25.2
+          },
+          {
+            "abbr": "NT",
+            "lon": 133.7,
+            "lat": -20.1
+          },
+          {
+            "abbr": "SA",
+            "lon": 135.9,
+            "lat": -30.3
+          },
+          {
+            "abbr": "QLD",
+            "lon": 144.0,
+            "lat": -22.5
+          },
+          {
+            "abbr": "NSW",
+            "lon": 147.1,
+            "lat": -32.6
+          },
+          {
+            "abbr": "VIC",
+            "lon": 144.0,
+            "lat": -37.7
+          },
+          {
+            "abbr": "TAS",
+            "lon": 146.7,
+            "lat": -42.0
+          },
+          {
+            "abbr": "ACT",
+            "lon": 149.2,
+            "lat": -35.5
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 14,
+        "fontWeight": "normal",
+        "fill": "#2f3b36",
+        "stroke": "#000000",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "abbr",
+          "type": "nominal"
+        }
       }
     }
   ]

@@ -103,17 +103,18 @@
         "tooltip": [
           {
             "field": "state",
-            "type": "nominal"
+            "type": "nominal",
+            "title": "State / Territory"
           },
           {
             "field": "leader",
             "type": "nominal",
-            "title": "Relative specialisation"
+            "title": "Most specialised in"
           },
           {
             "field": "index",
             "type": "quantitative",
-            "title": "Index vs national mix",
+            "title": "pecialisation index (national = 1)",
             "format": ".2f"
           }
         ]

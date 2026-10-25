@@ -100,22 +100,24 @@
       {
         "field": "year",
         "type": "quantitative",
+        "title": "Calendar year",
         "format": "d"
       },
       {
         "field": "species",
-        "type": "nominal"
+        "type": "nominal",
+        "title": "Livestock category"
       },
       {
         "field": "tonnes",
         "type": "quantitative",
-        "title": "Tonnes",
+        "title": "Meat production (tonnes)",
         "format": ",.0f"
       },
       {
         "field": "share",
         "type": "quantitative",
-        "title": "Share",
+        "title": "Share of total production (%)",
         "format": ".1%"
       }
     ]

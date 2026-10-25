@@ -86,16 +86,18 @@
     "tooltip": [
       {
         "field": "year",
-        "type": "ordinal"
+        "type": "ordinal",
+        "title": "Calendar year"
       },
       {
         "field": "species",
-        "type": "nominal"
+        "type": "nominal",
+        "title": "Livestock category"
       },
       {
         "field": "pct",
         "type": "quantitative",
-        "title": "Change (%)",
+        "title": "Change from previous year (%)",
         "format": "+.1f"
       }
     ]

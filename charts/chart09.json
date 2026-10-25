@@ -77,18 +77,19 @@
         "tooltip": [
           {
             "field": "state",
-            "type": "nominal"
+            "type": "nominal",
+            "title": "State / Territory"
           },
           {
             "field": "start",
             "type": "quantitative",
-            "title": "2016 tonnes",
+            "title": "2016 production (tonnes)",
             "format": ",.0f"
           },
           {
             "field": "end",
             "type": "quantitative",
-            "title": "Selected year tonnes",
+            "title": "Selected-year production (tonnes)",
             "format": ",.0f"
           }
         ]

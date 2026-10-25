@@ -68,17 +68,19 @@
     "tooltip": [
       {
         "field": "state",
-        "type": "nominal"
+        "type": "nominal",
+        "title": "State / Territory"
       },
       {
         "field": "tonnes",
         "type": "quantitative",
+        "title": "Meat production (tonnes)",
         "format": ",.0f"
       },
       {
         "field": "share",
         "type": "quantitative",
-        "title": "National share (%)",
+        "title": "National production share (%)",
         "format": ".1f"
       }
     ]

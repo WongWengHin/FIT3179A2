@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container",
-  "height": 210,
+  "height": 530,
   "background": null,
   "padding": {
     "left": 4,
@@ -95,14 +95,52 @@
         "tooltip": [
           {
             "field": "state",
-            "type": "nominal"
+            "type": "nominal",
+            "title": "State / Territory"
           },
           {
             "field": "tonnes",
             "type": "quantitative",
+            "title": "Meat production (tonnes)",
             "format": ",.0f"
           }
         ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {"abbr": "WA", "lon": 120.8, "lat": -25.5},
+          {"abbr": "NT", "lon": 133.8, "lat": -20.2},
+          {"abbr": "SA", "lon": 135.7, "lat": -30.4},
+          {"abbr": "QLD", "lon": 145.0, "lat": -22.3},
+          {"abbr": "NSW", "lon": 147.2, "lat": -33.0},
+          {"abbr": "VIC", "lon": 143.7, "lat": -37.2},
+          {"abbr": "TAS", "lon": 146.8, "lat": -42.1},
+          {"abbr": "ACT", "lon": 149.9, "lat": -35.35}
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 14,
+        "fontWeight": "normal",
+        "fill": "#1f2a25",
+        "stroke": "#000000",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "abbr",
+          "type": "nominal"
+        }
       }
     }
   ]
