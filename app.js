@@ -140,12 +140,21 @@ function updateText({year, species, state}) {
       : `${leader.state} led production, accounting for ${leader.share.toFixed(1)}% of Australia's ${species.toLowerCase()} meat total in ${year}.`
   );
 
-  // Figure 02: Production quantities
+
+  // Figure 02: Production scale comparison
+  const runnerUp = rows[1];
+  const meatLabel = species === 'Red meat'
+    ? 'red meat'
+    : `${species.toLowerCase()} meat`;
+
   setNote('note02',
-    leader
-      ? `${leader.state} recorded ${comma(leader.tonnes)} tonnes in ${year}, the highest published state total.${rows.length < 8 ? ` Comparable data cover ${rows.length} of 8 states and territories.` : ''}`
-      : 'No comparable regional values available.'
+    leader && runnerUp && runnerUp.tonnes > 0
+      ? `${leader.state} produced ${comma(leader.tonnes)} tonnes of ${meatLabel} in ${year}, ${(leader.tonnes / runnerUp.tonnes).toFixed(2)} times as much as ${runnerUp.state} (${comma(runnerUp.tonnes)} tonnes). This highlights the production gap between the two leading states.${rows.length < 8 ? ` Comparable data are available for only ${rows.length} of 8 states and territories.` : ''}`
+      : leader
+        ? `${leader.state} recorded ${comma(leader.tonnes)} tonnes in ${year}, but a valid comparison with the second-largest producer is unavailable.`
+        : 'No comparable regional values available.'
   );
+
 
   // Figure 03: Relative specialisation
   const specialised = buildTileRows(year, state)
@@ -202,14 +211,33 @@ function updateText({year, species, state}) {
     `Nationally, ${species.toLowerCase()} accounted for ${mix(2025).toFixed(1)}% of the four meat categories in 2025, compared with ${mix(2016).toFixed(1)}% in 2016.`
   );
 
-  // Figure 07: State rankings
-  const second = rows[1];
+
+  // Figure 07: Concentration among leading states
+  const topThree = rows.slice(0, 3);
+
+  const topThreeTotal = topThree.reduce(
+    (sum, r) => sum + r.tonnes, 0
+  );
+
+  const nationalTotal = value(year, 'Australia', species);
+
+  const topThreeShare = percentage(
+    topThreeTotal, nationalTotal
+  );
+
+  const topThreeNames = topThree
+    .map(r => r.state)
+    .join(', ')
+    .replace(/, ([^,]+)$/, ' and $1');
 
   setNote('note07',
-    leader
-      ? `${leader.state} ranked first in ${year} with ${comma(leader.tonnes)} tonnes${second ? `, ahead of ${second.state} (${comma(second.tonnes)} tonnes)` : ''}.`
-      : 'No comparable state totals available.'
+    topThree.length === 3 && topThreeShare !== null
+      ? rows.length < 8
+        ? `${topThreeNames} together accounted for ${topThreeShare.toFixed(1)}% of Australia's ${meatLabel} production in ${year}. Only ${rows.length} states and territories have comparable published figures, so the regional ranking is incomplete.`
+        : `${topThreeNames} together accounted for ${topThreeShare.toFixed(1)}% of Australia's ${meatLabel} production in ${year}. This reveals how national output is concentrated among the three leading states.`
+      : 'Insufficient comparable regional data to assess production concentration.'
   );
+
 
 
     // Figure 08: Ranking changes
