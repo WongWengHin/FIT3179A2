@@ -108,32 +108,176 @@ function resolveSpec(id,context){
  return s;
 }
 
+
 function updateText({year, species, state}) {
-    const rows = regional(year, species).sort((a, b) => b.tonnes - a.tonnes);
-    const top = rows[0];
-    const note = document.getElementById('selection-note');
-    note.textContent = `Showing ${year} · ${species} · ${state} · Hover over chart marks for exact values. Missing observations are not zero.`;
-    const change = (id, text) => {
-        const element = document.getElementById(id);
-        if (element) element.textContent = text;
-    };
-    change('note01', top ? `${ABBR[top.state]} contributes ${top.share.toFixed(1)}% of national ${species.toLowerCase()} tonnes in ${year}.` : 'No comparable state data for this selection.');
-    change('note02', `${rows.length} of 8 states and territories have complete ${species.toLowerCase()} series this year.`);
-    change('note03', 'Specialisation compares each state’s red-meat composition with the national mix, not the greatest number of tonnes.');
-    if (ACTIVE_CHART_COUNT >= 6) {
-        const start = value(2016, 'Australia', 'Cattle');
-        const end = value(2025, 'Australia', 'Cattle');
-        change('note04', `National cattle meat: ${comma(start)} tonnes in 2016 and ${comma(end)} tonnes in 2025. The line chart shows your state selection where applicable.`);
-        change('note06', 'The composition chart is always national; published state-level chicken data are incomplete.');
-    }
-    if (ACTIVE_CHART_COUNT >= 9) {
-        change('note07', rows.length < 8 ? `Published state coverage is incomplete (${rows.length}/8); unavailable states are not ranked.` : 'All eight states and territories are present for this selected category.');
-    }
-    if (ACTIVE_CHART_COUNT >= 12) {
-        const cattle = scatter().find(row => row.species === 'Cattle');
-        change('note12', `ABARES estimates for FY 2025–26: cattle volume changed ${cattle.volume_change.toFixed(1)}% and gross value changed ${cattle.value_change.toFixed(1)}% from the prior financial year.`);
-    }
+  const setNote = (id, text) => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = text;
+  };
+
+  const movement = n =>
+    `${Math.abs(n).toFixed(1)}% ${n >= 0 ? 'increase' : 'decrease'}`;
+
+  const area = state === 'Australia' ? 'Australia' : state;
+
+  const rows = regional(year, species)
+    .sort((a, b) => b.tonnes - a.tonnes);
+
+  const leader = rows[0];
+  const selected = rows.find(r => r.state === state);
+
+  setNote('selection-note',
+    `Showing ${year} · ${species} · ${state}. Hover for exact values. Missing data are not zero.`
+  );
+
+  // Figure 01: National production share
+  setNote('note01',
+    !leader ? 'No comparable regional data available.' :
+    state !== 'Australia' ?
+      (selected
+        ? `${state} accounted for ${selected.share.toFixed(1)}% of Australia's ${species.toLowerCase()} meat tonnes in ${year}.`
+        : `${state} has no published comparable figure for ${year}.`)
+      : `${leader.state} led production, accounting for ${leader.share.toFixed(1)}% of Australia's ${species.toLowerCase()} meat total in ${year}.`
+  );
+
+  // Figure 02: Production quantities
+  setNote('note02',
+    leader
+      ? `${leader.state} recorded ${comma(leader.tonnes)} tonnes in ${year}, the highest published state total.${rows.length < 8 ? ` Comparable data cover ${rows.length} of 8 states and territories.` : ''}`
+      : 'No comparable regional values available.'
+  );
+
+  // Figure 03: Relative specialisation
+  const specialised = buildTileRows(year, state)
+    .filter(r => Number.isFinite(r.index))
+    .sort((a, b) => b.index - a.index)[0];
+
+  setNote('note03',
+    specialised
+      ? `In ${year}, ${specialised.state} showed the strongest relative specialisation in ${specialised.leader === 'Pigs' ? 'pig' : specialised.leader.toLowerCase()} meat. Its share of the state's red-meat mix was ${specialised.index.toFixed(2)} times the national equivalent.`
+      : 'Insufficient data to calculate specialisation.'
+  );
+
+  // Figure 04: Long-term trend
+  const start = value(2016, area, 'Cattle');
+  const end = value(2025, area, 'Cattle');
+
+  setNote('note04',
+    start > 0 && Number.isFinite(end)
+      ? `From 2016 to 2025, cattle meat production in ${area} recorded a ${movement(pct(end, start))}, moving from ${comma(start)} to ${comma(end)} tonnes.`
+      : `A comparable cattle production change is unavailable for ${area}.`
+  );
+
+  // Figure 05: Largest annual change
+  const changes = growth(
+    state === 'Australia'
+      ? nationalTrend()
+      : stateTrend(state)
+  ).sort((a, b) => Math.abs(b.pct) - Math.abs(a.pct));
+
+  const strongest = changes[0];
+
+  setNote('note05',
+    strongest
+      ? `Across 2017–2025, the largest annual movement for ${area} was a ${movement(strongest.pct)} in ${strongest.species.toLowerCase()} meat in ${strongest.year}.`
+      : `Annual percentage changes are unavailable for ${area}.`
+  );
+
+  // Figure 06: National industry composition
+  const mix = y => {
+    const total = SPECIES.reduce(
+      (sum, s) => sum + value(y, 'Australia', s), 0
+    );
+
+    const chosen = species === 'Red meat'
+      ? ['Cattle', 'Sheep', 'Pigs'].reduce(
+          (sum, s) => sum + value(y, 'Australia', s), 0
+        )
+      : value(y, 'Australia', species);
+
+    return percentage(chosen, total);
+  };
+
+  setNote('note06',
+    `Nationally, ${species.toLowerCase()} accounted for ${mix(2025).toFixed(1)}% of the four meat categories in 2025, compared with ${mix(2016).toFixed(1)}% in 2016.`
+  );
+
+  // Figure 07: State rankings
+  const second = rows[1];
+
+  setNote('note07',
+    leader
+      ? `${leader.state} ranked first in ${year} with ${comma(leader.tonnes)} tonnes${second ? `, ahead of ${second.state} (${comma(second.tonnes)} tonnes)` : ''}.`
+      : 'No comparable state totals available.'
+  );
+
+  // Figure 08: Ranking changes
+  const firstRank = regional(2016, species)
+    .sort((a, b) => b.tonnes - a.tonnes)[0];
+
+  const lastRank = regional(2025, species)
+    .sort((a, b) => b.tonnes - a.tonnes)[0];
+
+  setNote('note08',
+    firstRank && lastRank
+      ? `${firstRank.state} ranked first in 2016, while ${lastRank.state} ranked first in 2025. Rankings show relative positions rather than the difference in tonnes.`
+      : 'Insufficient data to compare rankings.'
+  );
+
+  // Figure 09: Largest absolute production change
+  const differences = dumbbell(year, species)
+    .map(r => ({
+      ...r,
+      difference: r.end - r.start
+    }))
+    .sort((a, b) =>
+      Math.abs(b.difference) - Math.abs(a.difference)
+    );
+
+  const biggest = differences[0];
+
+  setNote('note09',
+    year === 2016
+      ? 'Choose a later year to compare production changes.'
+      : biggest
+        ? `${biggest.state} recorded the largest absolute change from 2016 to ${year}: ${biggest.difference >= 0 ? '+' : '−'}${comma(Math.abs(biggest.difference))} tonnes of ${species.toLowerCase()} meat.`
+        : 'No comparable endpoint data available.'
+  );
+
+  // Figure 10: Livestock production value
+  const fy = ECON.find(r => r.fy_start === 2025);
+  const cattleValue = fy.cattle_value_m;
+
+  const fourValues = SPECIES.reduce(
+    (sum, s) => sum + fy[s.toLowerCase() + '_value_m'], 0
+  );
+
+  setNote('note10',
+    `In FY 2025–26 estimates, cattle contributed A$${(cattleValue / 1000).toFixed(1)} billion, representing ${(100 * cattleValue / fourValues).toFixed(1)}% of the four livestock groups shown.`
+  );
+
+  // Figure 11: Livestock share of total agriculture
+  const old = ECON.find(r => r.fy_start === 2015);
+
+  const oldShare =
+    100 * old.livestock_and_products_m / old.total_farm_m;
+
+  const newShare =
+    100 * fy.livestock_and_products_m / fy.total_farm_m;
+
+  setNote('note11',
+    `Livestock and livestock products represented ${oldShare.toFixed(1)}% of total farm value in FY 2015–16, compared with an estimated ${newShare.toFixed(1)}% in FY 2025–26.`
+  );
+
+  // Figure 12: Volume compared with value
+  const cattle = scatter()
+    .find(r => r.species === 'Cattle');
+
+  setNote('note12',
+    `Between FY 2024–25 and FY 2025–26 (estimates), cattle meat volume increased ${cattle.volume_change.toFixed(1)}%, while gross production value increased ${cattle.value_change.toFixed(1)}%.`
+  );
 }
+
 
 async function renderAll() {
     const sequence = ++RENDER_SEQ;

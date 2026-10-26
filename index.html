@@ -152,7 +152,7 @@
           <h3>Growth and decline</h3>
           <p class="fig-deck">Year-on-year percentage changes reveal turning points.</p>
           <div class="vis" id="vis05"></div>
-          <p class="fig-takeaway">Blue cells indicate increases; red cells indicate decreases.</p>
+          <p class="fig-takeaway" id="note05">Annual production changes highlight the industry's turning points.</p>
         </article>
 
         <article class="figure">
@@ -188,7 +188,7 @@
           <h3>Shifts in state rank</h3>
           <p class="fig-deck">Track the leading states, 2016–2025.</p>
           <div class="vis" id="vis08"></div>
-          <p class="fig-takeaway">Higher position means a better rank, not a larger absolute margin.</p>
+          <p class="fig-takeaway" id="note08">Compare how state production rankings have changed.</p>
         </article>
 
         <article class="figure">
@@ -196,7 +196,11 @@
           <h3>Start versus selected year</h3>
           <p class="fig-deck">From 2016 to the chosen calendar year, measured in tonnes.</p>
           <div class="vis" id="vis09"></div>
-          <p class="fig-takeaway"><span class="key pale"></span> 2016 &nbsp; <span class="key dark"></span> Selected year. A longer connecting line indicates a larger change.</p>
+          <p class="fig-takeaway">
+            <span class="key pale"></span> 2016
+            &nbsp; <span class="key dark"></span> Selected year.
+            <span id="note09">Compare changes in production.</span>
+          </p>
         </article>
       </div>
     </section>
@@ -216,7 +220,9 @@
           <h3>The value of slaughtered livestock</h3>
           <p class="fig-deck">Estimated gross value of major livestock groups, FY 2025–26.</p>
           <div class="vis" id="vis10"></div>
-          <p class="fig-takeaway">Area represents gross value in Australian dollars, not meat tonnage.</p>
+          <p class="fig-takeaway" id="note10">
+            Cattle contributes the largest share of the four livestock groups shown.
+          </p>
         </article>
 
         <article class="figure">
@@ -224,7 +230,9 @@
           <h3>Livestock within agriculture</h3>
           <p class="fig-deck">Compare the share of livestock production and the scale of the entire farm sector.</p>
           <div class="vis" id="vis11"></div>
-          <p class="fig-takeaway">Wider strips represent financial years with higher nominal total farm value.</p>
+          <p class="fig-takeaway" id="note11">
+            Livestock's contribution to farm production value has changed over time.
+          </p>
         </article>
 
         <article class="figure">
@@ -247,7 +255,27 @@
         <p><strong>Trends:</strong> Growth is calculated relative to the previous calendar year. Industry share is a national four-category percentage, and does not use the selected-state filter.</p>
         <p><strong>Regional charts:</strong> Ranks exclude missing state data. Dumbbell endpoints compare 2016 with the selected year. The year and category selectors apply only where appropriate.</p>
         <p><strong>ABARES economic value:</strong> Nominal gross values, agricultural totals and livestock carcass weights are from <em>Agricultural commodities, September quarter 2026</em>. The data uses July–June financial years, and FY 2025–26 values are estimates rather than final recorded outcomes.</p>
-        <p><strong>Technical transparency:</strong> Chart JSON can be inspected in <code>charts/</code> and filtered CSV/JSON files in <code>data/</code>
+        <p>
+          <strong>Technical transparency:</strong>
+          <br>
+          All 12 visualisations were developed using Vega-Lite.
+          Their specifications are available in the directory,
+          <a href="https://github.com/WongWengHin/FIT3179A2/tree/main/charts" target="_blank" rel="noopener">charts/</a>
+          with prepared CSV and JSON datasets in
+          <a href="https://github.com/WongWengHin/FIT3179A2/tree/main/data" target="_blank" rel="noopener">data/</a>
+          Data preparation scripts and chart-generation code are also available in the
+          <a href="https://github.com/WongWengHin/FIT3179A2" target="_blank" rel="noopener">GitHub repository</a>
+        </p>
+        <p>
+          <strong>Generative AI acknowledgement:</strong>
+          ChatGPT (OpenAI) was used to assist with HTML, CSS,
+          JavaScript and Vega-Lite troubleshooting, improve tooltip
+          readability, review narrative clarity and suggest
+          improvements to data interpretation. AI-generated
+          suggestions were reviewed and adapted by the author.
+          The final visualisations and reported findings were
+          checked against the ABS and ABARES datasets.
+        </p>
       </div>
       <aside>
         <h3>Original public data</h3>
