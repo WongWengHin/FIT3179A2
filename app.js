@@ -211,18 +211,27 @@ function updateText({year, species, state}) {
       : 'No comparable state totals available.'
   );
 
-  // Figure 08: Ranking changes
-  const firstRank = regional(2016, species)
-    .sort((a, b) => b.tonnes - a.tonnes)[0];
 
-  const lastRank = regional(2025, species)
-    .sort((a, b) => b.tonnes - a.tonnes)[0];
+    // Figure 08: Ranking changes
+    const rankInsights = {
+    'Cattle':
+        'Queensland remained the largest cattle-producing state. However, Western Australia overtook South Australia for fourth place. Victoria also recorded 75.0% production growth despite remaining third, showing that stable rankings can hide significant growth.',
 
-  setNote('note08',
-    firstRank && lastRank
-      ? `${firstRank.state} ranked first in 2016, while ${lastRank.state} ranked first in 2025. Rankings show relative positions rather than the difference in tonnes.`
-      : 'Insufficient data to compare rankings.'
-  );
+    'Sheep':
+        'Victoria retained first place, but Western Australia overtook South Australia for third. Western Australian output grew by 17.0%, while South Australian production fell by 34.3%, revealing a shift in their relative positions.',
+
+    'Pigs':
+        'Queensland climbed from third to first place, overtaking South Australia. Queensland’s pig meat production increased by 41.9%, compared with just 5.2% in South Australia, highlighting a change in regional leadership.',
+
+    'Poultry':
+        'New South Wales maintained its lead, while Victoria overtook Queensland for second place. Victoria’s production grew by 17.7%, whereas Queensland recorded a 2.5% decline.',
+
+    'Red meat':
+        'Queensland remained the leading red meat producer, while Western Australia overtook South Australia for fourth place. Western Australian output rose by 27.4%, whereas South Australian production declined by 8.6%.'
+    };
+
+    setNote('note08', rankInsights[species]);
+
 
   // Figure 09: Largest absolute production change
   const differences = dumbbell(year, species)
@@ -269,12 +278,21 @@ function updateText({year, species, state}) {
     `Livestock and livestock products represented ${oldShare.toFixed(1)}% of total farm value in FY 2015–16, compared with an estimated ${newShare.toFixed(1)}% in FY 2025–26.`
   );
 
+
+
   // Figure 12: Volume compared with value
-  const cattle = scatter()
-    .find(r => r.species === 'Cattle');
+  const figure12Changes = scatter();
+
+  const cattle = figure12Changes.find(
+    r => r.species === 'Cattle'
+  );
+
+  const sheep = figure12Changes.find(
+    r => r.species === 'Sheep'
+  );
 
   setNote('note12',
-    `Between FY 2024–25 and FY 2025–26 (estimates), cattle meat volume increased ${cattle.volume_change.toFixed(1)}%, while gross production value increased ${cattle.value_change.toFixed(1)}%.`
+    `From FY 2024–25 to FY 2025–26 (estimates), cattle production value increased ${cattle.value_change.toFixed(1)}% despite meat volume growing only ${cattle.volume_change.toFixed(1)}%. More strikingly, sheep production value rose ${sheep.value_change.toFixed(1)}% even as volume declined ${Math.abs(sheep.volume_change).toFixed(1)}%. This shows that higher economic value does not necessarily mean greater physical production.`
   );
 }
 

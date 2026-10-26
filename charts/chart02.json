@@ -141,11 +141,6 @@
             "lat": -37.2
           },
           {
-            "abbr": "TAS",
-            "lon": 146.8,
-            "lat": -42.1
-          },
-          {
             "abbr": "ACT",
             "lon": 149.9,
             "lat": -35.35
@@ -159,6 +154,77 @@
         "fill": "#1f2a25",
         "stroke": "#000000",
         "strokeWidth": 1
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "abbr",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 147.2,
+            "lat": -42.1,
+            "pointOrder": 1
+          },
+          {
+            "lon": 151.3,
+            "lat": -42.7,
+            "pointOrder": 2
+          }
+        ]
+      },
+      "mark": {
+        "type": "line",
+        "stroke": "#1f2a25",
+        "strokeWidth": 1.25,
+        "opacity": 0.8
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "order": {
+          "field": "pointOrder",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "abbr": "TAS",
+            "lon": 151.5,
+            "lat": -42.7
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 14,
+        "fontWeight": "normal",
+        "fill": "#1f2a25",
+        "stroke": "#000000",
+        "strokeWidth": 1,
+        "align": "left",
+        "dx": 5
       },
       "encoding": {
         "longitude": {
