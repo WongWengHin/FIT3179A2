@@ -81,9 +81,9 @@
           "field": "tonnes",
           "type": "quantitative",
           "scale": {
-            "type": "sqrt",
+            "type": "linear",
             "range": [
-              35,
+              0,
               2000
             ]
           },
