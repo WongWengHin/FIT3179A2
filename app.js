@@ -100,7 +100,27 @@ function resolveSpec(id,context){
  if(id===5){setData(s,growth(state==='Australia'?nationalTrend():stateTrend(state)));return s;}
  if(id===6){setData(s,formatShareMix(nationalTrend()));return s;}
  if(id===7){const ranked=reg.map(r=>({...r,share:percentage(r.tonnes,national)}));setData(s,ranked);if(state!=='Australia')s.encoding.color={condition:{test:`datum.state === ${JSON.stringify(state)}`,value:'#be6e52'},value:'#4a856b'};return s;}
- if(id===8){setData(s,stateBump(species,state));return s;}
+
+if (id === 8) {
+  const rows = stateBump(species, state);
+  setData(s, rows);
+
+  // Expand the Y-axis when ranks 7 or 8 are displayed.
+  const maxRank = Math.max(6, ...rows.map(d => d.rank));
+
+  s.encoding.y.scale.domain = [maxRank + 0.2, 0.8];
+
+  // Display whole-number ranks only.
+  s.encoding.y.axis.values = Array.from(
+    { length: maxRank },
+    (_, i) => i + 1
+  );
+
+  // Keep the legend accurate when a territory is selected.
+  s.encoding.color.legend.title = 'States / territories shown';
+
+  return s;
+}
  if(id===9){const rows=dumbbell(year,species);for(let i=0;i<3;i++)setData(s,rows,i);return s;}
  if(id===10){const rows=treemap(ECON[ECON.length-1]);setData(s,rows,0);setData(s,rows,1);return s;}
  if(id===11){const [blocks,labels]=mosaic();setData(s,blocks,0);setData(s,labels,1);return s;}
