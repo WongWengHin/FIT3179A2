@@ -111,6 +111,42 @@
       "data": {
         "values": [
           {
+            "lon": 135.9,
+            "lat": -30.3,
+            "pointOrder": 1
+          },
+          {
+            "lon": 132.2,
+            "lat": -39.5,
+            "pointOrder": 2
+          }
+        ]
+      },
+      "mark": {
+        "type": "line",
+        "stroke": "#1f2a25",
+        "strokeWidth": 1.25,
+        "opacity": 0.8
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "order": {
+          "field": "pointOrder",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
             "abbr": "WA",
             "lon": 120.8,
             "lat": -25.5
@@ -119,11 +155,6 @@
             "abbr": "NT",
             "lon": 133.8,
             "lat": -20.2
-          },
-          {
-            "abbr": "SA",
-            "lon": 135.7,
-            "lat": -30.4
           },
           {
             "abbr": "QLD",
@@ -225,6 +256,41 @@
         "strokeWidth": 1,
         "align": "left",
         "dx": 5
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "abbr",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "abbr": "SA",
+            "lon": 132.2,
+            "lat": -39.5
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 14,
+        "fontWeight": "normal",
+        "fill": "#1f2a25",
+        "stroke": "#000000",
+        "strokeWidth": 1,
+        "align": "right",
+        "dx": -5
       },
       "encoding": {
         "longitude": {
